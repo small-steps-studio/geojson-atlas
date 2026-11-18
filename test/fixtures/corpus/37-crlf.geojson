@@ -1,0 +1,113 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zone 0",
+        "category": "c",
+        "capacity": 378
+      },
+      "id": 0,
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -7.42941,
+            43.9912
+          ],
+          [
+            -6.35,
+            42.83693
+          ],
+          [
+            16.4196,
+            51.16175
+          ],
+          [
+            -8.31108,
+            53.20763
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zone 1",
+        "category": "b",
+        "capacity": null
+      },
+      "id": 1,
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                11.547289,
+                47.544939
+              ],
+              [
+                11.620531,
+                47.544939
+              ],
+              [
+                11.620531,
+                47.618181
+              ],
+              [
+                11.547289,
+                47.618181
+              ],
+              [
+                11.547289,
+                47.544939
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                -6.156286,
+                49.556484
+              ],
+              [
+                -6.077874,
+                49.556484
+              ],
+              [
+                -6.077874,
+                49.634896
+              ],
+              [
+                -6.156286,
+                49.634896
+              ],
+              [
+                -6.156286,
+                49.556484
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zone 2",
+        "category": "c",
+        "capacity": 437
+      },
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.91675,
+          41.84747
+        ]
+      }
+    }
+  ]
+}

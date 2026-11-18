@@ -1,0 +1,19 @@
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Pacific hop"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        179.5,
+        -16.5
+      ],
+      [
+        -179.5,
+        -16.7
+      ]
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+﻿{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Route 0",
+        "category": "c",
+        "capacity": 293
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.00422,
+            50.90325
+          ],
+          [
+            10.68294,
+            45.31232
+          ],
+          [
+            15.90741,
+            42.65512
+          ],
+          [
+            -0.8736,
+            47.05816
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Route 1",
+        "category": "a",
+        "capacity": 157
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.594135,
+              42.100595
+            ],
+            [
+              15.641945,
+              42.100595
+            ],
+            [
+              15.641945,
+              42.148405
+            ],
+            [
+              15.594135,
+              42.148405
+            ],
+            [
+              15.594135,
+              42.100595
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

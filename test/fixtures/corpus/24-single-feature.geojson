@@ -1,0 +1,29 @@
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Zone 1",
+    "category": "a",
+    "capacity": null
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        3.63869,
+        46.41401
+      ],
+      [
+        -6.99969,
+        49.59523
+      ],
+      [
+        8.69234,
+        46.57112
+      ],
+      [
+        11.87838,
+        44.952
+      ]
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zone 0",
+        "category": "c",
+        "capacity": null,
+        "tags": [
+          "x",
+          "y"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            15.16031,
+            46.32676
+          ],
+          [
+            -3.31454,
+            45.85449
+          ],
+          [
+            6.42444,
+            41.7693
+          ],
+          [
+            -7.16458,
+            43.90154
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Depot 1",
+        "category": "b",
+        "capacity": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.18335,
+            42.37215
+          ],
+          [
+            16.11545,
+            41.04425
+          ],
+          [
+            12.48272,
+            42.55251
+          ],
+          [
+            19.20778,
+            49.57644
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Site 2",
+        "category": "b",
+        "capacity": 177
+      },
+      "geometry": null
+    }
+  ]
+}

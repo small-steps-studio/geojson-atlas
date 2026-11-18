@@ -1,0 +1,580 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Depot 0",
+        "category": "c",
+        "capacity": 347,
+        "tags": [
+          "x",
+          "y"
+        ]
+      },
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              -1.06892,
+              42.022
+            ]
+          },
+          {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -4.4025,
+                43.8157
+              ],
+              [
+                -0.4449,
+                41.6078
+              ],
+              [
+                -9.08571,
+                45.78601
+              ],
+              [
+                2.91737,
+                43.24938
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Site 1",
+        "category": "a",
+        "capacity": 409
+      },
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              -0.53202,
+              50.67895
+            ]
+          },
+          {
+            "type": "LineString",
+            "coordinates": [
+              [
+                10.01411,
+                50.19671
+              ],
+              [
+                11.9335,
+                48.00216
+              ],
+              [
+                15.72804,
+                43.17246
+              ],
+              [
+                18.28901,
+                42.19867
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Depot 2",
+        "category": "a",
+        "capacity": 123
+      },
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.3335,
+          54.94007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zone 3",
+        "category": "c",
+        "capacity": 239
+      },
+      "id": 3,
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            13.96843,
+            47.95948
+          ],
+          [
+            -2.37607,
+            49.38503
+          ],
+          [
+            18.51176,
+            47.46993
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Site 4",
+        "category": "b",
+        "capacity": 276,
+        "tags": [
+          "x",
+          "y"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.691233,
+              40.284883
+            ],
+            [
+              0.738127,
+              40.284883
+            ],
+            [
+              0.738127,
+              40.331777
+            ],
+            [
+              0.691233,
+              40.331777
+            ],
+            [
+              0.691233,
+              40.284883
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Route 5",
+        "category": "b",
+        "capacity": 154
+      },
+      "id": 5,
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              2.996,
+              41.59814
+            ]
+          },
+          {
+            "type": "LineString",
+            "coordinates": [
+              [
+                1.51875,
+                41.17269
+              ],
+              [
+                -6.9303,
+                45.077
+              ],
+              [
+                18.93458,
+                45.88128
+              ],
+              [
+                -6.68566,
+                53.07735
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Depot 6",
+        "category": "b",
+        "capacity": 0
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            9.9131,
+            47.91897
+          ],
+          [
+            -7.99668,
+            50.75199
+          ],
+          [
+            8.27502,
+            48.79323
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zone 7",
+        "category": "b",
+        "capacity": 24
+      },
+      "id": 7,
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -2.42388,
+              54.5009
+            ],
+            [
+              14.46547,
+              40.66697
+            ]
+          ],
+          [
+            [
+              -7.75418,
+              44.60825
+            ],
+            [
+              1.54626,
+              40.27407
+            ],
+            [
+              17.41523,
+              42.15918
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zone 8",
+        "category": "c",
+        "capacity": null
+      },
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.14782,
+          42.06912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Depot 9",
+        "category": "c",
+        "capacity": 67,
+        "tags": [
+          "x",
+          "y"
+        ]
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                7.758999,
+                51.037089
+              ],
+              [
+                7.865101,
+                51.037089
+              ],
+              [
+                7.865101,
+                51.143191
+              ],
+              [
+                7.758999,
+                51.143191
+              ],
+              [
+                7.758999,
+                51.037089
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                0.814269,
+                52.406189
+              ],
+              [
+                0.895991,
+                52.406189
+              ],
+              [
+                0.895991,
+                52.487911
+              ],
+              [
+                0.814269,
+                52.487911
+              ],
+              [
+                0.814269,
+                52.406189
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Site 10",
+        "category": "a",
+        "capacity": 271
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              1.11657,
+              40.34066
+            ],
+            [
+              12.07492,
+              42.23206
+            ]
+          ],
+          [
+            [
+              -9.74058,
+              46.20584
+            ],
+            [
+              17.63679,
+              47.30632
+            ],
+            [
+              17.24819,
+              52.99051
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Route 11",
+        "category": "b",
+        "capacity": 191,
+        "tags": [
+          "x",
+          "y"
+        ]
+      },
+      "id": 11,
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                7.124407,
+                42.196817
+              ],
+              [
+                7.228893,
+                42.196817
+              ],
+              [
+                7.228893,
+                42.301303
+              ],
+              [
+                7.124407,
+                42.301303
+              ],
+              [
+                7.124407,
+                42.196817
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                -0.920443,
+                52.699093
+              ],
+              [
+                -0.819277,
+                52.699093
+              ],
+              [
+                -0.819277,
+                52.597927
+              ],
+              [
+                -0.920443,
+                52.597927
+              ],
+              [
+                -0.920443,
+                52.699093
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zone 12",
+        "category": "a",
+        "capacity": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            11.75622,
+            42.46134
+          ],
+          [
+            11.75622,
+            42.46134
+          ],
+          [
+            11.6202,
+            54.51099
+          ],
+          [
+            6.74309,
+            54.1486
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zone 13",
+        "category": "c",
+        "capacity": 249,
+        "tags": [
+          "x",
+          "y"
+        ]
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                14.649701,
+                40.832441
+              ],
+              [
+                14.727279,
+                40.832441
+              ],
+              [
+                14.727279,
+                40.910019
+              ],
+              [
+                14.649701,
+                40.910019
+              ],
+              [
+                14.649701,
+                40.832441
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                4.083055,
+                43.933335
+              ],
+              [
+                4.167865,
+                43.933335
+              ],
+              [
+                4.167865,
+                44.018145
+              ],
+              [
+                4.083055,
+                44.018145
+              ],
+              [
+                4.083055,
+                43.933335
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Depot 14",
+        "category": "b",
+        "capacity": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            19.9779,
+            49.35975
+          ],
+          [
+            -0.13444,
+            51.8974
+          ],
+          [
+            8.95849,
+            40.01519
+          ]
+        ]
+      }
+    }
+  ]
+}
