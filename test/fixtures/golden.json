@@ -1,0 +1,682 @@
+{
+ "01-collection-0.geojson": {
+  "reportSummary": {
+   "exact": "# GeoJSON Summary\n\nFeatureCollection with 21 features (9 with an id, 3 without geometry).\n\nBounding box: -8.94047, 40.16964, 19.291745, 54.83247 (west, south, east, north).\n\n| Geometry type | Features |\n| --- | ---: |\n| Point | 3 |\n| MultiPoint | 3 |\n| LineString | 1 |\n| MultiLineString | 2 |\n| Polygon | 4 |\n| MultiPolygon | 3 |\n| GeometryCollection | 2 |"
+  },
+  "reportValidation": {
+   "exact": "# GeoJSON Validation\n\nNo problems found."
+  },
+  "reportProperties": {
+   "exact": "# Properties\n\n4 properties across 21 features.\n\n| Property | Features | Missing | Types |\n| --- | ---: | ---: | --- |\n| capacity | 21 | 0 | null, number |\n| category | 21 | 0 | string |\n| name | 21 | 0 | string |\n| tags | 4 | 17 | array |"
+  },
+  "reportQuality": {
+   "exact": "# Geometry Quality\n\n8 findings.\n\n| Location | Check | Finding |\n| --- | --- | --- |\n| features\\[0\\] | null_geometry | the feature has no geometry |\n| features\\[3\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[5\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[7\\] | null_geometry | the feature has no geometry |\n| features\\[11\\] | null_geometry | the feature has no geometry |\n| features\\[13\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[15\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[19\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |"
+  },
+  "reportMeasurements": {
+   "exact": "# Measurements\n\nLengths and areas on a sphere of radius 6371.0088 km (the mean Earth radius); polygon lengths are the length of the outer ring.\n\n| Feature | Geometry | Length (km) | Area (km²) |\n| --- | --- | ---: | ---: |\n| Zone 1 | MultiLineString | 2817.127 | - |\n| Depot 3 | MultiPolygon | 42.432 | 53.219 |\n| Site 5 | Polygon | 42.153 | 104.952 |\n| Depot 8 | GeometryCollection | 2730.419 | - |\n| Site 9 | MultiLineString | 2673.261 | - |\n| Route 12 | LineString | 1417.498 | - |\n| Site 13 | Polygon | 32.347 | 63.990 |\n| Zone 14 | Polygon | 41.248 | 101.010 |\n| Route 15 | MultiPolygon | 53.861 | 99.086 |\n| Route 17 | GeometryCollection | 1421.480 | - |\n| Depot 18 | Polygon | 34.930 | 73.265 |\n| Site 19 | MultiPolygon | 48.490 | 84.063 |\n\nTotal: 11355.245 km, 579.583 km²."
+  }
+ },
+ "02-collection-1.geojson": {
+  "reportSummary": {
+   "exact": "# GeoJSON Summary\n\nFeatureCollection with 24 features (9 with an id, 0 without geometry).\n\nBounding box: -9.37865, 40.24541, 19.18539, 54.95591 (west, south, east, north).\n\n| Geometry type | Features |\n| --- | ---: |\n| Point | 2 |\n| MultiPoint | 6 |\n| LineString | 4 |\n| MultiLineString | 1 |\n| Polygon | 6 |\n| MultiPolygon | 2 |\n| GeometryCollection | 3 |"
+  },
+  "reportValidation": {
+   "exact": "# GeoJSON Validation\n\nNo problems found."
+  },
+  "reportProperties": {
+   "exact": "# Properties\n\n4 properties across 24 features.\n\n| Property | Features | Missing | Types |\n| --- | ---: | ---: | --- |\n| capacity | 24 | 0 | null, number |\n| category | 24 | 0 | string |\n| name | 24 | 0 | string |\n| tags | 3 | 21 | array |"
+  },
+  "reportQuality": {
+   "exact": "# Geometry Quality\n\n4 findings.\n\n| Location | Check | Finding |\n| --- | --- | --- |\n| features\\[17\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[18\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[19\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[22\\].geometry.coordinates\\[1\\] | duplicate_point | the same position as the one before it |"
+  },
+  "reportMeasurements": {
+   "exact": "# Measurements\n\nLengths and areas on a sphere of radius 6371.0088 km (the mean Earth radius); polygon lengths are the length of the outer ring.\n\n| Feature | Geometry | Length (km) | Area (km²) |\n| --- | --- | ---: | ---: |\n| Site 0 | MultiPolygon | 51.358 | 108.630 |\n| Route 2 | Polygon | 28.653 | 49.644 |\n| Route 3 | Polygon | 25.586 | 39.896 |\n| Route 7 | LineString | 3433.053 | - |\n| Depot 9 | MultiLineString | 3184.619 | - |\n| Site 10 | LineString | 3665.349 | - |\n| Depot 11 | LineString | 2504.878 | - |\n| Zone 12 | Polygon | 11.362 | 7.825 |\n| Route 13 | Polygon | 30.279 | 54.878 |\n| Depot 16 | GeometryCollection | 2962.435 | - |\n| Site 17 | MultiPolygon | 25.782 | 22.361 |\n| Route 18 | Polygon | 40.133 | 95.979 |\n| Zone 19 | Polygon | 12.792 | 9.535 |\n| Zone 20 | GeometryCollection | 1133.712 | - |\n| Route 22 | LineString | 2076.102 | - |\n| Zone 23 | GeometryCollection | 3325.962 | - |\n\nTotal: 22512.054 km, 388.747 km²."
+  }
+ },
+ "03-collection-2.geojson": {
+  "reportSummary": {
+   "exact": "# GeoJSON Summary\n\nFeatureCollection with 12 features (4 with an id, 1 without geometry).\n\nBounding box: -9.7154, 40.0258, 17.79562, 54.22966 (west, south, east, north).\n\n| Geometry type | Features |\n| --- | ---: |\n| MultiPoint | 1 |\n| LineString | 2 |\n| MultiLineString | 2 |\n| Polygon | 2 |\n| MultiPolygon | 2 |\n| GeometryCollection | 2 |"
+  },
+  "reportValidation": {
+   "exact": "# GeoJSON Validation\n\nNo problems found."
+  },
+  "reportProperties": {
+   "exact": "# Properties\n\n4 properties across 12 features.\n\n| Property | Features | Missing | Types |\n| --- | ---: | ---: | --- |\n| capacity | 12 | 0 | null, number |\n| category | 12 | 0 | string |\n| name | 12 | 0 | string |\n| tags | 2 | 10 | array |"
+  },
+  "reportQuality": {
+   "exact": "# Geometry Quality\n\n3 findings.\n\n| Location | Check | Finding |\n| --- | --- | --- |\n| features\\[0\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[3\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[8\\] | null_geometry | the feature has no geometry |"
+  },
+  "reportMeasurements": {
+   "exact": "# Measurements\n\nLengths and areas on a sphere of radius 6371.0088 km (the mean Earth radius); polygon lengths are the length of the outer ring.\n\n| Feature | Geometry | Length (km) | Area (km²) |\n| --- | --- | ---: | ---: |\n| Zone 0 | Polygon | 42.434 | 106.655 |\n| Route 1 | MultiLineString | 3503.586 | - |\n| Site 2 | MultiLineString | 4167.322 | - |\n| Zone 3 | MultiPolygon | 50.584 | 78.894 |\n| Route 4 | GeometryCollection | 4433.336 | - |\n| Route 6 | GeometryCollection | 3143.897 | - |\n| Site 7 | MultiPolygon | 66.864 | 141.343 |\n| Zone 9 | LineString | 3069.064 | - |\n| Zone 10 | LineString | 1727.146 | - |\n| Depot 11 | Polygon | 25.491 | 39.603 |\n\nTotal: 20229.725 km, 366.496 km²."
+  }
+ },
+ "04-collection-3.geojson": {
+  "reportSummary": {
+   "exact": "# GeoJSON Summary\n\nFeatureCollection with 2 features (1 with an id, 0 without geometry).\n\nBounding box: -6.743846, 42.05378, 15.88287, 52.69833 (west, south, east, north).\n\n| Geometry type | Features |\n| --- | ---: |\n| MultiPolygon | 1 |\n| GeometryCollection | 1 |"
+  },
+  "reportValidation": {
+   "exact": "# GeoJSON Validation\n\nNo problems found."
+  },
+  "reportProperties": {
+   "exact": "# Properties\n\n3 properties across 2 features.\n\n| Property | Features | Missing | Types |\n| --- | ---: | ---: | --- |\n| capacity | 2 | 0 | number |\n| category | 2 | 0 | string |\n| name | 2 | 0 | string |"
+  },
+  "reportQuality": {
+   "exact": "# Geometry Quality\n\nNo findings."
+  },
+  "reportMeasurements": {
+   "exact": "# Measurements\n\nLengths and areas on a sphere of radius 6371.0088 km (the mean Earth radius); polygon lengths are the length of the outer ring.\n\n| Feature | Geometry | Length (km) | Area (km²) |\n| --- | --- | ---: | ---: |\n| Site 0 | GeometryCollection | 3180.849 | - |\n| Zone 1 | MultiPolygon | 53.528 | 103.909 |\n\nTotal: 3234.377 km, 103.909 km²."
+  }
+ },
+ "05-collection-4.geojson": {
+  "reportSummary": {
+   "exact": "# GeoJSON Summary\n\nFeatureCollection with 21 features (10 with an id, 0 without geometry).\n\nBounding box: -9.465141, 40.01608, 19.9104, 54.61866 (west, south, east, north).\n\n| Geometry type | Features |\n| --- | ---: |\n| Point | 3 |\n| MultiPoint | 1 |\n| LineString | 4 |\n| MultiLineString | 5 |\n| Polygon | 3 |\n| MultiPolygon | 3 |\n| GeometryCollection | 2 |"
+  },
+  "reportValidation": {
+   "exact": "# GeoJSON Validation\n\nNo problems found."
+  },
+  "reportProperties": {
+   "exact": "# Properties\n\n4 properties across 21 features.\n\n| Property | Features | Missing | Types |\n| --- | ---: | ---: | --- |\n| capacity | 21 | 0 | null, number |\n| category | 21 | 0 | string |\n| name | 21 | 0 | string |\n| tags | 3 | 18 | array |"
+  },
+  "reportQuality": {
+   "exact": "# Geometry Quality\n\n6 findings.\n\n| Location | Check | Finding |\n| --- | --- | --- |\n| features\\[4\\].geometry.coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[5\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[12\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[13\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[16\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[20\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |"
+  },
+  "reportMeasurements": {
+   "exact": "# Measurements\n\nLengths and areas on a sphere of radius 6371.0088 km (the mean Earth radius); polygon lengths are the length of the outer ring.\n\n| Feature | Geometry | Length (km) | Area (km²) |\n| --- | --- | ---: | ---: |\n| Depot 0 | GeometryCollection | 3530.279 | - |\n| Depot 1 | LineString | 4594.375 | - |\n| Route 2 | MultiLineString | 1902.005 | - |\n| Route 3 | GeometryCollection | 2951.970 | - |\n| Route 4 | LineString | 1893.370 | - |\n| Route 5 | Polygon | 15.600 | 14.597 |\n| Depot 6 | LineString | 4461.825 | - |\n| Route 7 | MultiLineString | 2120.650 | - |\n| Route 9 | MultiLineString | 2116.972 | - |\n| Depot 11 | LineString | 2963.197 | - |\n| Site 12 | Polygon | 15.879 | 14.759 |\n| Depot 13 | MultiPolygon | 37.496 | 55.238 |\n| Zone 14 | MultiLineString | 2393.974 | - |\n| Route 15 | MultiPolygon | 78.836 | 185.649 |\n| Depot 16 | MultiPolygon | 50.454 | 96.086 |\n| Route 17 | MultiLineString | 4677.780 | - |\n| Depot 20 | Polygon | 25.042 | 37.969 |\n\nTotal: 33829.705 km, 404.299 km²."
+  }
+ },
+ "06-collection-5.geojson": {
+  "reportSummary": {
+   "exact": "# GeoJSON Summary\n\nFeatureCollection with 8 features (6 with an id, 1 without geometry).\n\nBounding box: -8.19182, 40.394099, 19.787262, 54.422418 (west, south, east, north).\n\n| Geometry type | Features |\n| --- | ---: |\n| MultiPoint | 2 |\n| LineString | 1 |\n| Polygon | 2 |\n| MultiPolygon | 2 |"
+  },
+  "reportValidation": {
+   "exact": "# GeoJSON Validation\n\nNo problems found."
+  },
+  "reportProperties": {
+   "exact": "# Properties\n\n4 properties across 8 features.\n\n| Property | Features | Missing | Types |\n| --- | ---: | ---: | --- |\n| capacity | 8 | 0 | null, number |\n| category | 8 | 0 | string |\n| name | 8 | 0 | string |\n| tags | 2 | 6 | array |"
+  },
+  "reportQuality": {
+   "exact": "# Geometry Quality\n\n1 finding.\n\n| Location | Check | Finding |\n| --- | --- | --- |\n| features\\[2\\] | null_geometry | the feature has no geometry |"
+  },
+  "reportMeasurements": {
+   "exact": "# Measurements\n\nLengths and areas on a sphere of radius 6371.0088 km (the mean Earth radius); polygon lengths are the length of the outer ring.\n\n| Feature | Geometry | Length (km) | Area (km²) |\n| --- | --- | ---: | ---: |\n| Site 1 | MultiPolygon | 58.142 | 107.535 |\n| Site 3 | Polygon | 20.812 | 25.937 |\n| Zone 5 | LineString | 2286.826 | - |\n| Zone 6 | Polygon | 29.383 | 50.202 |\n| Route 7 | MultiPolygon | 59.606 | 133.676 |\n\nTotal: 2454.768 km, 317.350 km²."
+  }
+ },
+ "07-collection-6.geojson": {
+  "reportSummary": {
+   "exact": "# GeoJSON Summary\n\nFeatureCollection with 11 features (2 with an id, 2 without geometry).\n\nBounding box: -9.51596, 40.41367, 19.2751, 54.48843 (west, south, east, north).\n\n| Geometry type | Features |\n| --- | ---: |\n| Point | 2 |\n| MultiPoint | 1 |\n| LineString | 1 |\n| Polygon | 1 |\n| MultiPolygon | 2 |\n| GeometryCollection | 2 |"
+  },
+  "reportValidation": {
+   "exact": "# GeoJSON Validation\n\nNo problems found."
+  },
+  "reportProperties": {
+   "exact": "# Properties\n\n4 properties across 11 features.\n\n| Property | Features | Missing | Types |\n| --- | ---: | ---: | --- |\n| capacity | 11 | 0 | null, number |\n| category | 11 | 0 | string |\n| name | 11 | 0 | string |\n| tags | 1 | 10 | array |"
+  },
+  "reportQuality": {
+   "exact": "# Geometry Quality\n\n3 findings.\n\n| Location | Check | Finding |\n| --- | --- | --- |\n| features\\[6\\] | null_geometry | the feature has no geometry |\n| features\\[8\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[10\\] | null_geometry | the feature has no geometry |"
+  },
+  "reportMeasurements": {
+   "exact": "# Measurements\n\nLengths and areas on a sphere of radius 6371.0088 km (the mean Earth radius); polygon lengths are the length of the outer ring.\n\n| Feature | Geometry | Length (km) | Area (km²) |\n| --- | --- | ---: | ---: |\n| Route 1 | LineString | 2405.801 | - |\n| Depot 2 | GeometryCollection | 5127.166 | - |\n| Route 3 | MultiPolygon | 86.268 | 225.717 |\n| Depot 4 | GeometryCollection | 2851.450 | - |\n| Depot 8 | MultiPolygon | 39.369 | 47.197 |\n| Zone 9 | Polygon | 12.003 | 8.627 |\n\nTotal: 10522.056 km, 281.540 km²."
+  }
+ },
+ "08-collection-7.geojson": {
+  "reportSummary": {
+   "exact": "# GeoJSON Summary\n\nFeatureCollection with 25 features (15 with an id, 1 without geometry).\n\nBounding box: -9.9943, 40.12592, 19.78188, 54.70762 (west, south, east, north).\n\n| Geometry type | Features |\n| --- | ---: |\n| Point | 5 |\n| MultiPoint | 3 |\n| LineString | 2 |\n| MultiLineString | 4 |\n| Polygon | 2 |\n| MultiPolygon | 3 |\n| GeometryCollection | 5 |"
+  },
+  "reportValidation": {
+   "exact": "# GeoJSON Validation\n\nNo problems found."
+  },
+  "reportProperties": {
+   "exact": "# Properties\n\n4 properties across 25 features.\n\n| Property | Features | Missing | Types |\n| --- | ---: | ---: | --- |\n| capacity | 25 | 0 | null, number |\n| category | 25 | 0 | string |\n| name | 25 | 0 | string |\n| tags | 6 | 19 | array |"
+  },
+  "reportQuality": {
+   "exact": "# Geometry Quality\n\n4 findings.\n\n| Location | Check | Finding |\n| --- | --- | --- |\n| features\\[4\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[14\\] | null_geometry | the feature has no geometry |\n| features\\[17\\].geometry.geometries\\[1\\].coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[23\\].geometry.coordinates\\[1\\] | duplicate_point | the same position as the one before it |"
+  },
+  "reportMeasurements": {
+   "exact": "# Measurements\n\nLengths and areas on a sphere of radius 6371.0088 km (the mean Earth radius); polygon lengths are the length of the outer ring.\n\n| Feature | Geometry | Length (km) | Area (km²) |\n| --- | --- | ---: | ---: |\n| Zone 1 | LineString | 3022.092 | - |\n| Zone 3 | MultiLineString | 2377.721 | - |\n| Zone 4 | MultiPolygon | 71.893 | 155.042 |\n| Depot 5 | GeometryCollection | 1752.860 | - |\n| Depot 6 | MultiLineString | 1416.691 | - |\n| Zone 9 | Polygon | 37.124 | 82.056 |\n| Route 10 | GeometryCollection | 3562.250 | - |\n| Site 11 | MultiPolygon | 52.950 | 118.571 |\n| Route 12 | MultiLineString | 3415.455 | - |\n| Zone 13 | MultiPolygon | 34.703 | 47.229 |\n| Zone 16 | GeometryCollection | 4055.509 | - |\n| Zone 17 | GeometryCollection | 1725.936 | - |\n| Site 18 | GeometryCollection | 2801.468 | - |\n| Zone 21 | Polygon | 25.243 | 38.330 |\n| Zone 22 | MultiLineString | 3666.412 | - |\n| Zone 23 | LineString | 4223.947 | - |\n\nTotal: 32242.255 km, 441.228 km²."
+  }
+ },
+ "09-collection-8.geojson": {
+  "reportSummary": {
+   "exact": "# GeoJSON Summary\n\nFeatureCollection with 15 features (6 with an id, 0 without geometry).\n\nBounding box: -9.74058, 40.01519, 19.9779, 54.94007 (west, south, east, north).\n\n| Geometry type | Features |\n| --- | ---: |\n| Point | 2 |\n| MultiPoint | 3 |\n| LineString | 1 |\n| MultiLineString | 2 |\n| Polygon | 1 |\n| MultiPolygon | 3 |\n| GeometryCollection | 3 |"
+  },
+  "reportValidation": {
+   "exact": "# GeoJSON Validation\n\nNo problems found."
+  },
+  "reportProperties": {
+   "exact": "# Properties\n\n4 properties across 15 features.\n\n| Property | Features | Missing | Types |\n| --- | ---: | ---: | --- |\n| capacity | 15 | 0 | null, number |\n| category | 15 | 0 | string |\n| name | 15 | 0 | string |\n| tags | 5 | 10 | array |"
+  },
+  "reportQuality": {
+   "exact": "# Geometry Quality\n\n2 findings.\n\n| Location | Check | Finding |\n| --- | --- | --- |\n| features\\[11\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[12\\].geometry.coordinates\\[1\\] | duplicate_point | the same position as the one before it |"
+  },
+  "reportMeasurements": {
+   "exact": "# Measurements\n\nLengths and areas on a sphere of radius 6371.0088 km (the mean Earth radius); polygon lengths are the length of the outer ring.\n\n| Feature | Geometry | Length (km) | Area (km²) |\n| --- | --- | ---: | ---: |\n| Depot 0 | GeometryCollection | 2232.368 | - |\n| Site 1 | GeometryCollection | 1129.515 | - |\n| Site 4 | Polygon | 18.381 | 20.734 |\n| Route 5 | GeometryCollection | 4823.226 | - |\n| Zone 7 | MultiLineString | 4225.592 | - |\n| Depot 9 | MultiPolygon | 67.668 | 137.756 |\n| Site 10 | MultiLineString | 3649.849 | - |\n| Route 11 | MultiPolygon | 76.585 | 176.695 |\n| Zone 12 | LineString | 1658.621 | - |\n| Zone 13 | MultiPolygon | 62.733 | 120.269 |\n\nTotal: 17944.538 km, 455.454 km²."
+  }
+ },
+ "10-collection-9.geojson": {
+  "reportSummary": {
+   "exact": "# GeoJSON Summary\n\nFeatureCollection with 17 features (7 with an id, 0 without geometry).\n\nBounding box: -9.851959, 40.462999, 19.78111, 54.69289 (west, south, east, north).\n\n| Geometry type | Features |\n| --- | ---: |\n| Point | 1 |\n| MultiPoint | 1 |\n| LineString | 4 |\n| MultiLineString | 3 |\n| Polygon | 2 |\n| MultiPolygon | 4 |\n| GeometryCollection | 2 |"
+  },
+  "reportValidation": {
+   "exact": "# GeoJSON Validation\n\nNo problems found."
+  },
+  "reportProperties": {
+   "exact": "# Properties\n\n4 properties across 17 features.\n\n| Property | Features | Missing | Types |\n| --- | ---: | ---: | --- |\n| capacity | 17 | 0 | null, number |\n| category | 17 | 0 | string |\n| name | 17 | 0 | string |\n| tags | 2 | 15 | array |"
+  },
+  "reportQuality": {
+   "exact": "# Geometry Quality\n\n5 findings.\n\n| Location | Check | Finding |\n| --- | --- | --- |\n| features\\[1\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[7\\].geometry.geometries\\[1\\].coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[10\\].geometry.geometries\\[1\\].coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[11\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[12\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |"
+  },
+  "reportMeasurements": {
+   "exact": "# Measurements\n\nLengths and areas on a sphere of radius 6371.0088 km (the mean Earth radius); polygon lengths are the length of the outer ring.\n\n| Feature | Geometry | Length (km) | Area (km²) |\n| --- | --- | ---: | ---: |\n| Route 0 | Polygon | 9.497 | 5.258 |\n| Zone 1 | MultiPolygon | 72.834 | 159.863 |\n| Route 4 | LineString | 1764.232 | - |\n| Depot 5 | LineString | 2881.501 | - |\n| Zone 6 | LineString | 2938.090 | - |\n| Site 7 | GeometryCollection | 1411.436 | - |\n| Site 8 | Polygon | 39.476 | 90.568 |\n| Depot 9 | MultiPolygon | 32.519 | 32.810 |\n| Depot 10 | GeometryCollection | 2958.212 | - |\n| Site 11 | MultiPolygon | 56.282 | 97.025 |\n| Site 12 | MultiPolygon | 75.253 | 173.584 |\n| Site 13 | MultiLineString | 2747.965 | - |\n| Depot 14 | LineString | 3612.789 | - |\n| Site 15 | MultiLineString | 3021.894 | - |\n| Depot 16 | MultiLineString | 2543.750 | - |\n\nTotal: 24165.729 km, 559.107 km²."
+  }
+ },
+ "11-collection-10.geojson": {
+  "reportSummary": {
+   "exact": "# GeoJSON Summary\n\nFeatureCollection with 6 features (3 with an id, 0 without geometry).\n\nBounding box: -9.63704, 41.27419, 17.11637, 53.98608 (west, south, east, north).\n\n| Geometry type | Features |\n| --- | ---: |\n| MultiPoint | 1 |\n| MultiPolygon | 3 |\n| GeometryCollection | 2 |"
+  },
+  "reportValidation": {
+   "exact": "# GeoJSON Validation\n\nNo problems found."
+  },
+  "reportProperties": {
+   "exact": "# Properties\n\n4 properties across 6 features.\n\n| Property | Features | Missing | Types |\n| --- | ---: | ---: | --- |\n| capacity | 6 | 0 | null, number |\n| category | 6 | 0 | string |\n| name | 6 | 0 | string |\n| tags | 1 | 5 | array |"
+  },
+  "reportQuality": {
+   "exact": "# Geometry Quality\n\nNo findings."
+  },
+  "reportMeasurements": {
+   "exact": "# Measurements\n\nLengths and areas on a sphere of radius 6371.0088 km (the mean Earth radius); polygon lengths are the length of the outer ring.\n\n| Feature | Geometry | Length (km) | Area (km²) |\n| --- | --- | ---: | ---: |\n| Depot 0 | MultiPolygon | 24.841 | 19.197 |\n| Site 1 | GeometryCollection | 4027.982 | - |\n| Depot 3 | MultiPolygon | 57.887 | 118.017 |\n| Route 4 | GeometryCollection | 3612.064 | - |\n| Zone 5 | MultiPolygon | 69.201 | 145.238 |\n\nTotal: 7791.975 km, 282.452 km²."
+  }
+ },
+ "12-collection-11.geojson": {
+  "reportSummary": {
+   "exact": "# GeoJSON Summary\n\nFeatureCollection with 6 features (1 with an id, 0 without geometry).\n\nBounding box: -9.960194, 43.074196, 13.85328, 54.686 (west, south, east, north).\n\n| Geometry type | Features |\n| --- | ---: |\n| Point | 1 |\n| LineString | 1 |\n| Polygon | 4 |"
+  },
+  "reportValidation": {
+   "exact": "# GeoJSON Validation\n\nNo problems found."
+  },
+  "reportProperties": {
+   "exact": "# Properties\n\n4 properties across 6 features.\n\n| Property | Features | Missing | Types |\n| --- | ---: | ---: | --- |\n| capacity | 6 | 0 | null, number |\n| category | 6 | 0 | string |\n| name | 6 | 0 | string |\n| tags | 1 | 5 | array |"
+  },
+  "reportQuality": {
+   "exact": "# Geometry Quality\n\n2 findings.\n\n| Location | Check | Finding |\n| --- | --- | --- |\n| features\\[0\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[1\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |"
+  },
+  "reportMeasurements": {
+   "exact": "# Measurements\n\nLengths and areas on a sphere of radius 6371.0088 km (the mean Earth radius); polygon lengths are the length of the outer ring.\n\n| Feature | Geometry | Length (km) | Area (km²) |\n| --- | --- | ---: | ---: |\n| Depot 0 | Polygon | 25.713 | 39.599 |\n| Zone 1 | Polygon | 12.704 | 9.627 |\n| Route 2 | Polygon | 21.519 | 28.238 |\n| Depot 4 | LineString | 3131.797 | - |\n| Site 5 | Polygon | 29.264 | 51.169 |\n\nTotal: 3220.997 km, 128.633 km²."
+  }
+ },
+ "13-collection-12.geojson": {
+  "reportSummary": {
+   "exact": "# GeoJSON Summary\n\nFeatureCollection with 21 features (4 with an id, 4 without geometry).\n\nBounding box: -9.73545, 40.18678, 19.19582, 54.97566 (west, south, east, north).\n\n| Geometry type | Features |\n| --- | ---: |\n| Point | 4 |\n| MultiPoint | 1 |\n| LineString | 3 |\n| MultiLineString | 4 |\n| Polygon | 2 |\n| MultiPolygon | 1 |\n| GeometryCollection | 2 |"
+  },
+  "reportValidation": {
+   "exact": "# GeoJSON Validation\n\nNo problems found."
+  },
+  "reportProperties": {
+   "exact": "# Properties\n\n4 properties across 21 features.\n\n| Property | Features | Missing | Types |\n| --- | ---: | ---: | --- |\n| capacity | 21 | 0 | null, number |\n| category | 21 | 0 | string |\n| name | 21 | 0 | string |\n| tags | 3 | 18 | array |"
+  },
+  "reportQuality": {
+   "exact": "# Geometry Quality\n\n5 findings.\n\n| Location | Check | Finding |\n| --- | --- | --- |\n| features\\[0\\] | null_geometry | the feature has no geometry |\n| features\\[7\\] | null_geometry | the feature has no geometry |\n| features\\[8\\] | null_geometry | the feature has no geometry |\n| features\\[17\\].geometry.coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[20\\] | null_geometry | the feature has no geometry |"
+  },
+  "reportMeasurements": {
+   "exact": "# Measurements\n\nLengths and areas on a sphere of radius 6371.0088 km (the mean Earth radius); polygon lengths are the length of the outer ring.\n\n| Feature | Geometry | Length (km) | Area (km²) |\n| --- | --- | ---: | ---: |\n| Site 2 | MultiLineString | 3716.659 | - |\n| Depot 3 | Polygon | 14.347 | 12.272 |\n| Route 4 | GeometryCollection | 3611.677 | - |\n| Zone 5 | MultiLineString | 4196.199 | - |\n| Depot 6 | MultiLineString | 2212.604 | - |\n| Zone 9 | MultiPolygon | 82.948 | 209.814 |\n| Route 10 | LineString | 2190.533 | - |\n| Depot 11 | LineString | 2524.631 | - |\n| Route 12 | Polygon | 14.541 | 12.869 |\n| Depot 14 | MultiLineString | 1801.613 | - |\n| Route 16 | GeometryCollection | 2629.573 | - |\n| Route 17 | LineString | 2037.680 | - |\n\nTotal: 25033.004 km, 234.954 km²."
+  }
+ },
+ "14-collection-13.geojson": {
+  "reportSummary": {
+   "exact": "# GeoJSON Summary\n\nFeatureCollection with 4 features (0 with an id, 0 without geometry).\n\nBounding box: -4.804433, 40.26256, 19.87137, 53.90317 (west, south, east, north).\n\n| Geometry type | Features |\n| --- | ---: |\n| Point | 1 |\n| LineString | 1 |\n| MultiLineString | 1 |\n| MultiPolygon | 1 |"
+  },
+  "reportValidation": {
+   "exact": "# GeoJSON Validation\n\nNo problems found."
+  },
+  "reportProperties": {
+   "exact": "# Properties\n\n4 properties across 4 features.\n\n| Property | Features | Missing | Types |\n| --- | ---: | ---: | --- |\n| capacity | 4 | 0 | number |\n| category | 4 | 0 | string |\n| name | 4 | 0 | string |\n| tags | 1 | 3 | array |"
+  },
+  "reportQuality": {
+   "exact": "# Geometry Quality\n\n1 finding.\n\n| Location | Check | Finding |\n| --- | --- | --- |\n| features\\[0\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |"
+  },
+  "reportMeasurements": {
+   "exact": "# Measurements\n\nLengths and areas on a sphere of radius 6371.0088 km (the mean Earth radius); polygon lengths are the length of the outer ring.\n\n| Feature | Geometry | Length (km) | Area (km²) |\n| --- | --- | ---: | ---: |\n| Route 0 | MultiPolygon | 65.726 | 132.605 |\n| Route 2 | MultiLineString | 3733.580 | - |\n| Depot 3 | LineString | 1272.443 | - |\n\nTotal: 5071.750 km, 132.605 km²."
+  }
+ },
+ "15-collection-14.geojson": {
+  "reportSummary": {
+   "exact": "# GeoJSON Summary\n\nFeatureCollection with 8 features (4 with an id, 1 without geometry).\n\nBounding box: -9.91835, 40.02736, 19.11948, 54.395817 (west, south, east, north).\n\n| Geometry type | Features |\n| --- | ---: |\n| LineString | 2 |\n| MultiPolygon | 1 |\n| GeometryCollection | 4 |"
+  },
+  "reportValidation": {
+   "exact": "# GeoJSON Validation\n\nNo problems found."
+  },
+  "reportProperties": {
+   "exact": "# Properties\n\n4 properties across 8 features.\n\n| Property | Features | Missing | Types |\n| --- | ---: | ---: | --- |\n| capacity | 8 | 0 | null, number |\n| category | 8 | 0 | string |\n| name | 8 | 0 | string |\n| tags | 2 | 6 | array |"
+  },
+  "reportQuality": {
+   "exact": "# Geometry Quality\n\n3 findings.\n\n| Location | Check | Finding |\n| --- | --- | --- |\n| features\\[3\\] | null_geometry | the feature has no geometry |\n| features\\[5\\].geometry.geometries\\[1\\].coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[7\\].geometry.coordinates\\[1\\] | duplicate_point | the same position as the one before it |"
+  },
+  "reportMeasurements": {
+   "exact": "# Measurements\n\nLengths and areas on a sphere of radius 6371.0088 km (the mean Earth radius); polygon lengths are the length of the outer ring.\n\n| Feature | Geometry | Length (km) | Area (km²) |\n| --- | --- | ---: | ---: |\n| Zone 0 | GeometryCollection | 3261.144 | - |\n| Depot 1 | GeometryCollection | 2333.898 | - |\n| Zone 2 | GeometryCollection | 3961.031 | - |\n| Depot 4 | MultiPolygon | 83.286 | 203.723 |\n| Route 5 | GeometryCollection | 2021.130 | - |\n| Route 6 | LineString | 3404.381 | - |\n| Route 7 | LineString | 1244.358 | - |\n\nTotal: 16309.229 km, 203.723 km²."
+  }
+ },
+ "16-collection-15.geojson": {
+  "reportSummary": {
+   "exact": "# GeoJSON Summary\n\nFeatureCollection with 19 features (4 with an id, 4 without geometry).\n\nBounding box: -9.550879, 40.05029, 19.92403, 54.95427 (west, south, east, north).\n\n| Geometry type | Features |\n| --- | ---: |\n| Point | 1 |\n| MultiPoint | 4 |\n| LineString | 5 |\n| MultiLineString | 2 |\n| Polygon | 1 |\n| MultiPolygon | 1 |\n| GeometryCollection | 1 |"
+  },
+  "reportValidation": {
+   "exact": "# GeoJSON Validation\n\nNo problems found."
+  },
+  "reportProperties": {
+   "exact": "# Properties\n\n4 properties across 19 features.\n\n| Property | Features | Missing | Types |\n| --- | ---: | ---: | --- |\n| capacity | 19 | 0 | null, number |\n| category | 19 | 0 | string |\n| name | 19 | 0 | string |\n| tags | 5 | 14 | array |"
+  },
+  "reportQuality": {
+   "exact": "# Geometry Quality\n\n4 findings.\n\n| Location | Check | Finding |\n| --- | --- | --- |\n| features\\[5\\] | null_geometry | the feature has no geometry |\n| features\\[12\\] | null_geometry | the feature has no geometry |\n| features\\[13\\] | null_geometry | the feature has no geometry |\n| features\\[18\\] | null_geometry | the feature has no geometry |"
+  },
+  "reportMeasurements": {
+   "exact": "# Measurements\n\nLengths and areas on a sphere of radius 6371.0088 km (the mean Earth radius); polygon lengths are the length of the outer ring.\n\n| Feature | Geometry | Length (km) | Area (km²) |\n| --- | --- | ---: | ---: |\n| Route 0 | LineString | 3135.172 | - |\n| Depot 2 | LineString | 3684.601 | - |\n| Site 4 | LineString | 4629.939 | - |\n| Depot 6 | MultiPolygon | 64.645 | 125.503 |\n| Route 7 | LineString | 3603.229 | - |\n| Zone 9 | LineString | 3268.440 | - |\n| Zone 10 | MultiLineString | 3936.932 | - |\n| Route 14 | Polygon | 13.407 | 10.636 |\n| Zone 16 | MultiLineString | 2677.094 | - |\n| Route 17 | GeometryCollection | 2247.965 | - |\n\nTotal: 27261.424 km, 136.140 km²."
+  }
+ },
+ "17-bare-point.geojson": {
+  "reportSummary": {
+   "exact": "# GeoJSON Summary\n\nPoint with 1 feature (0 with an id, 0 without geometry).\n\nBounding box: 7.29367, 42.97762, 7.29367, 42.97762 (west, south, east, north).\n\n| Geometry type | Features |\n| --- | ---: |\n| Point | 1 |"
+  },
+  "reportValidation": {
+   "exact": "# GeoJSON Validation\n\nNo problems found."
+  },
+  "reportProperties": {
+   "exact": "# Properties\n\nNo feature has properties."
+  },
+  "reportQuality": {
+   "exact": "# Geometry Quality\n\nNo findings."
+  },
+  "reportMeasurements": {
+   "exact": "# Measurements\n\nNo lines or polygons to measure."
+  }
+ },
+ "18-bare-multipoint.geojson": {
+  "reportSummary": {
+   "exact": "# GeoJSON Summary\n\nMultiPoint with 1 feature (0 with an id, 0 without geometry).\n\nBounding box: -4.99003, 48.98147, 10.81681, 54.37265 (west, south, east, north).\n\n| Geometry type | Features |\n| --- | ---: |\n| MultiPoint | 1 |"
+  },
+  "reportValidation": {
+   "exact": "# GeoJSON Validation\n\nNo problems found."
+  },
+  "reportProperties": {
+   "exact": "# Properties\n\nNo feature has properties."
+  },
+  "reportQuality": {
+   "exact": "# Geometry Quality\n\nNo findings."
+  },
+  "reportMeasurements": {
+   "exact": "# Measurements\n\nNo lines or polygons to measure."
+  }
+ },
+ "19-bare-linestring.geojson": {
+  "reportSummary": {
+   "exact": "# GeoJSON Summary\n\nLineString with 1 feature (0 with an id, 0 without geometry).\n\nBounding box: -9.47149, 40.67171, 18.84664, 53.48015 (west, south, east, north).\n\n| Geometry type | Features |\n| --- | ---: |\n| LineString | 1 |"
+  },
+  "reportValidation": {
+   "exact": "# GeoJSON Validation\n\nNo problems found."
+  },
+  "reportProperties": {
+   "exact": "# Properties\n\nNo feature has properties."
+  },
+  "reportQuality": {
+   "exact": "# Geometry Quality\n\nNo findings."
+  },
+  "reportMeasurements": {
+   "exact": "# Measurements\n\nLengths and areas on a sphere of radius 6371.0088 km (the mean Earth radius); polygon lengths are the length of the outer ring.\n\n| Feature | Geometry | Length (km) | Area (km²) |\n| --- | --- | ---: | ---: |\n| \\(root\\) | LineString | 3249.425 | - |\n\nTotal: 3249.425 km, 0.000 km²."
+  }
+ },
+ "20-bare-multilinestring.geojson": {
+  "reportSummary": {
+   "exact": "# GeoJSON Summary\n\nMultiLineString with 1 feature (0 with an id, 0 without geometry).\n\nBounding box: -4.53357, 43.16711, 13.17586, 53.82124 (west, south, east, north).\n\n| Geometry type | Features |\n| --- | ---: |\n| MultiLineString | 1 |"
+  },
+  "reportValidation": {
+   "exact": "# GeoJSON Validation\n\nNo problems found."
+  },
+  "reportProperties": {
+   "exact": "# Properties\n\nNo feature has properties."
+  },
+  "reportQuality": {
+   "exact": "# Geometry Quality\n\nNo findings."
+  },
+  "reportMeasurements": {
+   "exact": "# Measurements\n\nLengths and areas on a sphere of radius 6371.0088 km (the mean Earth radius); polygon lengths are the length of the outer ring.\n\n| Feature | Geometry | Length (km) | Area (km²) |\n| --- | --- | ---: | ---: |\n| \\(root\\) | MultiLineString | 3310.442 | - |\n\nTotal: 3310.442 km, 0.000 km²."
+  }
+ },
+ "21-bare-polygon.geojson": {
+  "reportSummary": {
+   "exact": "# GeoJSON Summary\n\nPolygon with 1 feature (0 with an id, 0 without geometry).\n\nBounding box: 18.552614, 45.288154, 18.609326, 45.344866 (west, south, east, north).\n\n| Geometry type | Features |\n| --- | ---: |\n| Polygon | 1 |"
+  },
+  "reportValidation": {
+   "exact": "# GeoJSON Validation\n\nNo problems found."
+  },
+  "reportProperties": {
+   "exact": "# Properties\n\nNo feature has properties."
+  },
+  "reportQuality": {
+   "exact": "# Geometry Quality\n\n1 finding.\n\n| Location | Check | Finding |\n| --- | --- | --- |\n| \\(root\\).coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |"
+  },
+  "reportMeasurements": {
+   "exact": "# Measurements\n\nLengths and areas on a sphere of radius 6371.0088 km (the mean Earth radius); polygon lengths are the length of the outer ring.\n\n| Feature | Geometry | Length (km) | Area (km²) |\n| --- | --- | ---: | ---: |\n| \\(root\\) | Polygon | 21.481 | 27.964 |\n\nTotal: 21.481 km, 27.964 km²."
+  }
+ },
+ "22-bare-multipolygon.geojson": {
+  "reportSummary": {
+   "exact": "# GeoJSON Summary\n\nMultiPolygon with 1 feature (0 with an id, 0 without geometry).\n\nBounding box: 1.265738, 49.085187, 17.039763, 54.962532 (west, south, east, north).\n\n| Geometry type | Features |\n| --- | ---: |\n| MultiPolygon | 1 |"
+  },
+  "reportValidation": {
+   "exact": "# GeoJSON Validation\n\nNo problems found."
+  },
+  "reportProperties": {
+   "exact": "# Properties\n\nNo feature has properties."
+  },
+  "reportQuality": {
+   "exact": "# Geometry Quality\n\nNo findings."
+  },
+  "reportMeasurements": {
+   "exact": "# Measurements\n\nLengths and areas on a sphere of radius 6371.0088 km (the mean Earth radius); polygon lengths are the length of the outer ring.\n\n| Feature | Geometry | Length (km) | Area (km²) |\n| --- | --- | ---: | ---: |\n| \\(root\\) | MultiPolygon | 47.283 | 68.019 |\n\nTotal: 47.283 km, 68.019 km²."
+  }
+ },
+ "23-bare-geometrycollection.geojson": {
+  "reportSummary": {
+   "exact": "# GeoJSON Summary\n\nGeometryCollection with 1 feature (0 with an id, 0 without geometry).\n\nBounding box: -3.94032, 42.69763, 17.85195, 53.00116 (west, south, east, north).\n\n| Geometry type | Features |\n| --- | ---: |\n| GeometryCollection | 1 |"
+  },
+  "reportValidation": {
+   "exact": "# GeoJSON Validation\n\nNo problems found."
+  },
+  "reportProperties": {
+   "exact": "# Properties\n\nNo feature has properties."
+  },
+  "reportQuality": {
+   "exact": "# Geometry Quality\n\nNo findings."
+  },
+  "reportMeasurements": {
+   "exact": "# Measurements\n\nLengths and areas on a sphere of radius 6371.0088 km (the mean Earth radius); polygon lengths are the length of the outer ring.\n\n| Feature | Geometry | Length (km) | Area (km²) |\n| --- | --- | ---: | ---: |\n| \\(root\\) | GeometryCollection | 3106.818 | - |\n\nTotal: 3106.818 km, 0.000 km²."
+  }
+ },
+ "24-single-feature.geojson": {
+  "reportSummary": {
+   "exact": "# GeoJSON Summary\n\nFeature with 1 feature (0 with an id, 0 without geometry).\n\nBounding box: -6.99969, 44.952, 11.87838, 49.59523 (west, south, east, north).\n\n| Geometry type | Features |\n| --- | ---: |\n| LineString | 1 |"
+  },
+  "reportValidation": {
+   "exact": "# GeoJSON Validation\n\nNo problems found."
+  },
+  "reportProperties": {
+   "exact": "# Properties\n\n3 properties across 1 feature.\n\n| Property | Features | Missing | Types |\n| --- | ---: | ---: | --- |\n| capacity | 1 | 0 | null |\n| category | 1 | 0 | string |\n| name | 1 | 0 | string |"
+  },
+  "reportQuality": {
+   "exact": "# Geometry Quality\n\nNo findings."
+  },
+  "reportMeasurements": {
+   "exact": "# Measurements\n\nLengths and areas on a sphere of radius 6371.0088 km (the mean Earth radius); polygon lengths are the length of the outer ring.\n\n| Feature | Geometry | Length (km) | Area (km²) |\n| --- | --- | ---: | ---: |\n| Zone 1 | LineString | 2382.288 | - |\n\nTotal: 2382.288 km, 0.000 km²."
+  }
+ },
+ "25-crs-member.geojson": {
+  "reportSummary": {
+   "exact": "# GeoJSON Summary\n\nFeatureCollection with 3 features (0 with an id, 1 without geometry).\n\nBounding box: -7.16458, 41.04425, 19.20778, 49.57644 (west, south, east, north).\n\n| Geometry type | Features |\n| --- | ---: |\n| LineString | 2 |"
+  },
+  "reportValidation": {
+   "exact": "# GeoJSON Validation\n\n1 problem found.\n\n| Location | Problem |\n| --- | --- |\n| \\(root\\) | the crs member is not part of RFC 7946 \\(coordinates are always WGS 84 longitude, latitude\\) |"
+  },
+  "reportProperties": {
+   "exact": "# Properties\n\n4 properties across 3 features.\n\n| Property | Features | Missing | Types |\n| --- | ---: | ---: | --- |\n| capacity | 3 | 0 | null, number |\n| category | 3 | 0 | string |\n| name | 3 | 0 | string |\n| tags | 1 | 2 | array |"
+  },
+  "reportQuality": {
+   "exact": "# Geometry Quality\n\n1 finding.\n\n| Location | Check | Finding |\n| --- | --- | --- |\n| features\\[2\\] | null_geometry | the feature has no geometry |"
+  },
+  "reportMeasurements": {
+   "exact": "# Measurements\n\nLengths and areas on a sphere of radius 6371.0088 km (the mean Earth radius); polygon lengths are the length of the outer ring.\n\n| Feature | Geometry | Length (km) | Area (km²) |\n| --- | --- | ---: | ---: |\n| Zone 0 | LineString | 3457.141 | - |\n| Depot 1 | LineString | 1499.454 | - |\n\nTotal: 4956.594 km, 0.000 km²."
+  }
+ },
+ "26-swapped.geojson": {
+  "reportSummary": {
+   "exact": "# GeoJSON Summary\n\nFeatureCollection with 3 features (0 with an id, 0 without geometry).\n\nBounding box: 52.52, 13.405, 52.52, 13.405 (west, south, east, north).\n\n| Geometry type | Features |\n| --- | ---: |\n| Point | 3 |"
+  },
+  "reportValidation": {
+   "exact": "# GeoJSON Validation\n\n2 problems found.\n\n| Location | Problem |\n| --- | --- |\n| features\\[1\\].geometry.coordinates | latitude 95 is out of range; longitude and latitude look swapped |\n| features\\[2\\].geometry.coordinates | longitude 200 is out of range \\(-180 to 180\\) |"
+  },
+  "reportProperties": {
+   "exact": "# Properties\n\nNo feature has properties."
+  },
+  "reportQuality": {
+   "exact": "# Geometry Quality\n\nNo findings."
+  },
+  "reportMeasurements": {
+   "exact": "# Measurements\n\nNo lines or polygons to measure."
+  }
+ },
+ "27-bad-structure.geojson": {
+  "reportSummary": {
+   "exact": "# GeoJSON Summary\n\nFeatureCollection with 10 features (0 with an id, 1 without geometry).\n\nBounding box: 0, 0, 1, 2 (west, south, east, north).\n\n| Geometry type | Features |\n| --- | ---: |\n| Point | 1 |\n| LineString | 1 |\n| Polygon | 2 |\n| MultiPolygon | 1 |\n| GeometryCollection | 1 |\n| Circle | 1 |"
+  },
+  "reportValidation": {
+   "exact": "# GeoJSON Validation\n\n12 problems found.\n\n| Location | Problem |\n| --- | --- |\n| features\\[0\\] | a feature must be an object |\n| features\\[1\\] | a feature must be an object |\n| features\\[2\\] | type must be Feature |\n| features\\[2\\] | a feature needs a properties member \\(it may be null\\) |\n| features\\[3\\].properties | properties must be an object or null |\n| features\\[3\\].geometry | type Circle is not a geometry type |\n| features\\[4\\].geometry | coordinates must be an array |\n| features\\[5\\].geometry.coordinates | a line needs at least 2 positions |\n| features\\[6\\].geometry.coordinates\\[0\\] | a ring must end with its first position |\n| features\\[7\\].geometry.coordinates | a position should not have more than 3 numbers |\n| features\\[8\\].geometry | a GeometryCollection needs a geometries array |\n| features\\[9\\].geometry.coordinates\\[0\\]\\[0\\] | a ring needs at least 4 positions |"
+  },
+  "reportProperties": {
+   "exact": "# Properties\n\nNo feature has properties."
+  },
+  "reportQuality": {
+   "exact": "# Geometry Quality\n\n1 finding.\n\n| Location | Check | Finding |\n| --- | --- | --- |\n| features\\[2\\] | null_geometry | the feature has no geometry |"
+  },
+  "reportMeasurements": {
+   "exact": "# Measurements\n\nLengths and areas on a sphere of radius 6371.0088 km (the mean Earth radius); polygon lengths are the length of the outer ring.\n\n| Feature | Geometry | Length (km) | Area (km²) |\n| --- | --- | ---: | ---: |\n| features\\[6\\] | Polygon | 333.568 | 12363.718 |\n| features\\[9\\] | MultiPolygon | 222.390 | - |\n\nTotal: 555.958 km, 12363.718 km²."
+  }
+ },
+ "28-holes.geojson": {
+  "reportSummary": {
+   "exact": "# GeoJSON Summary\n\nFeature with 1 feature (0 with an id, 0 without geometry).\n\nBounding box: 0, 0, 0.02, 0.02 (west, south, east, north).\n\n| Geometry type | Features |\n| --- | ---: |\n| Polygon | 1 |"
+  },
+  "reportValidation": {
+   "exact": "# GeoJSON Validation\n\nNo problems found."
+  },
+  "reportProperties": {
+   "exact": "# Properties\n\n1 property across 1 feature.\n\n| Property | Features | Missing | Types |\n| --- | ---: | ---: | --- |\n| name | 1 | 0 | string |"
+  },
+  "reportQuality": {
+   "exact": "# Geometry Quality\n\n1 finding.\n\n| Location | Check | Finding |\n| --- | --- | --- |\n| \\(root\\).geometry.coordinates\\[1\\] | orientation | the hole is counterclockwise; RFC 7946 asks for clockwise |"
+  },
+  "reportMeasurements": {
+   "exact": "# Measurements\n\nLengths and areas on a sphere of radius 6371.0088 km (the mean Earth radius); polygon lengths are the length of the outer ring.\n\n| Feature | Geometry | Length (km) | Area (km²) |\n| --- | --- | ---: | ---: |\n| Park with pond | Polygon | 8.896 | 4.637 |\n\nTotal: 8.896 km, 4.637 km²."
+  }
+ },
+ "29-precision.geojson": {
+  "reportSummary": {
+   "exact": "# GeoJSON Summary\n\nFeature with 1 feature (0 with an id, 0 without geometry).\n\nBounding box: 13.123457, 52.1, 13.2, 52.123457 (west, south, east, north).\n\n| Geometry type | Features |\n| --- | ---: |\n| LineString | 1 |"
+  },
+  "reportValidation": {
+   "exact": "# GeoJSON Validation\n\nNo problems found."
+  },
+  "reportProperties": {
+   "exact": "# Properties\n\nNo feature has properties."
+  },
+  "reportQuality": {
+   "exact": "# Geometry Quality\n\n2 findings.\n\n| Location | Check | Finding |\n| --- | --- | --- |\n| \\(root\\).geometry.coordinates\\[0\\] | precision | more than 7 decimals \\(finer than 1 cm\\); the file is larger than it needs to be |\n| \\(root\\).geometry.coordinates\\[1\\] | precision | more than 7 decimals \\(finer than 1 cm\\); the file is larger than it needs to be |"
+  },
+  "reportMeasurements": {
+   "exact": "# Measurements\n\nLengths and areas on a sphere of radius 6371.0088 km (the mean Earth radius); polygon lengths are the length of the outer ring.\n\n| Feature | Geometry | Length (km) | Area (km²) |\n| --- | --- | ---: | ---: |\n| \\(root\\) | LineString | 5.842 | - |\n\nTotal: 5.842 km, 0.000 km²."
+  }
+ },
+ "30-bbox-wrong.geojson": {
+  "reportSummary": {
+   "exact": "# GeoJSON Summary\n\nFeatureCollection with 1 feature (0 with an id, 0 without geometry).\n\nBounding box: 2, 2, 2, 2 (west, south, east, north).\n\n| Geometry type | Features |\n| --- | ---: |\n| Point | 1 |"
+  },
+  "reportValidation": {
+   "exact": "# GeoJSON Validation\n\nNo problems found."
+  },
+  "reportProperties": {
+   "exact": "# Properties\n\nNo feature has properties."
+  },
+  "reportQuality": {
+   "exact": "# Geometry Quality\n\n2 findings.\n\n| Location | Check | Finding |\n| --- | --- | --- |\n| features\\[0\\] | bbox | the bbox member does not contain all positions |\n| \\(root\\) | bbox | the bbox member does not contain all positions |"
+  },
+  "reportMeasurements": {
+   "exact": "# Measurements\n\nNo lines or polygons to measure."
+  }
+ },
+ "31-empty-collection.geojson": {
+  "reportSummary": {
+   "exact": "# GeoJSON Summary\n\nFeatureCollection with 0 features (0 with an id, 0 without geometry).\n\nBounding box: no valid positions.\n\nNo geometries."
+  },
+  "reportValidation": {
+   "exact": "# GeoJSON Validation\n\nNo problems found."
+  },
+  "reportProperties": {
+   "exact": "# Properties\n\nNo feature has properties."
+  },
+  "reportQuality": {
+   "exact": "# Geometry Quality\n\nNo findings."
+  },
+  "reportMeasurements": {
+   "exact": "# Measurements\n\nNo lines or polygons to measure."
+  }
+ },
+ "32-no-features.geojson": {
+  "reportSummary": {
+   "exact": "# GeoJSON Summary\n\nFeatureCollection with 0 features (0 with an id, 0 without geometry).\n\nBounding box: no valid positions.\n\nNo geometries."
+  },
+  "reportValidation": {
+   "exact": "# GeoJSON Validation\n\n1 problem found.\n\n| Location | Problem |\n| --- | --- |\n| \\(root\\) | a FeatureCollection needs a features array |"
+  },
+  "reportProperties": {
+   "exact": "# Properties\n\nNo feature has properties."
+  },
+  "reportQuality": {
+   "exact": "# Geometry Quality\n\nNo findings."
+  },
+  "reportMeasurements": {
+   "exact": "# Measurements\n\nNo lines or polygons to measure."
+  }
+ },
+ "33-empty-geometries.geojson": {
+  "reportSummary": {
+   "exact": "# GeoJSON Summary\n\nFeatureCollection with 2 features (0 with an id, 0 without geometry).\n\nBounding box: no valid positions.\n\n| Geometry type | Features |\n| --- | ---: |\n| MultiPoint | 1 |\n| Polygon | 1 |"
+  },
+  "reportValidation": {
+   "exact": "# GeoJSON Validation\n\nNo problems found."
+  },
+  "reportProperties": {
+   "exact": "# Properties\n\nNo feature has properties."
+  },
+  "reportQuality": {
+   "exact": "# Geometry Quality\n\n2 findings.\n\n| Location | Check | Finding |\n| --- | --- | --- |\n| features\\[0\\].geometry | empty | MultiPoint has no coordinates |\n| features\\[1\\].geometry | empty | Polygon has no coordinates |"
+  },
+  "reportMeasurements": {
+   "exact": "# Measurements\n\nNo lines or polygons to measure."
+  }
+ },
+ "34-not-geojson.json": {
+  "reportSummary": {
+   "startsWith": "# GeoJSON Summary\n\nThis file is not GeoJSON"
+  },
+  "reportValidation": {
+   "startsWith": "# GeoJSON Validation\n\nThis file is not GeoJSON"
+  },
+  "reportProperties": {
+   "startsWith": "# Properties\n\nThis file is not GeoJSON"
+  },
+  "reportQuality": {
+   "startsWith": "# Geometry Quality\n\nThis file is not GeoJSON"
+  },
+  "reportMeasurements": {
+   "startsWith": "# Measurements\n\nThis file is not GeoJSON"
+  }
+ },
+ "35-array-top.json": {
+  "reportSummary": {
+   "startsWith": "# GeoJSON Summary\n\nThis file is not GeoJSON"
+  },
+  "reportValidation": {
+   "startsWith": "# GeoJSON Validation\n\nThis file is not GeoJSON"
+  },
+  "reportProperties": {
+   "startsWith": "# Properties\n\nThis file is not GeoJSON"
+  },
+  "reportQuality": {
+   "startsWith": "# Geometry Quality\n\nThis file is not GeoJSON"
+  },
+  "reportMeasurements": {
+   "startsWith": "# Measurements\n\nThis file is not GeoJSON"
+  }
+ },
+ "36-broken.geojson": {
+  "reportSummary": {
+   "startsWith": "# GeoJSON Summary\n\nThis file is not GeoJSON"
+  },
+  "reportValidation": {
+   "startsWith": "# GeoJSON Validation\n\nThis file is not GeoJSON"
+  },
+  "reportProperties": {
+   "startsWith": "# Properties\n\nThis file is not GeoJSON"
+  },
+  "reportQuality": {
+   "startsWith": "# Geometry Quality\n\nThis file is not GeoJSON"
+  },
+  "reportMeasurements": {
+   "startsWith": "# Measurements\n\nThis file is not GeoJSON"
+  }
+ },
+ "37-crlf.geojson": {
+  "reportSummary": {
+   "exact": "# GeoJSON Summary\n\nFeatureCollection with 3 features (3 with an id, 0 without geometry).\n\nBounding box: -8.31108, 41.84747, 16.4196, 53.20763 (west, south, east, north).\n\n| Geometry type | Features |\n| --- | ---: |\n| Point | 1 |\n| LineString | 1 |\n| MultiPolygon | 1 |"
+  },
+  "reportValidation": {
+   "exact": "# GeoJSON Validation\n\nNo problems found."
+  },
+  "reportProperties": {
+   "exact": "# Properties\n\n3 properties across 3 features.\n\n| Property | Features | Missing | Types |\n| --- | ---: | ---: | --- |\n| capacity | 3 | 0 | null, number |\n| category | 3 | 0 | string |\n| name | 3 | 0 | string |"
+  },
+  "reportQuality": {
+   "exact": "# Geometry Quality\n\nNo findings."
+  },
+  "reportMeasurements": {
+   "exact": "# Measurements\n\nLengths and areas on a sphere of radius 6371.0088 km (the mean Earth radius); polygon lengths are the length of the outer ring.\n\n| Feature | Geometry | Length (km) | Area (km²) |\n| --- | --- | ---: | ---: |\n| Zone 0 | LineString | 3795.653 | - |\n| Zone 1 | MultiPolygon | 56.016 | 94.016 |\n\nTotal: 3851.670 km, 94.016 km²."
+  }
+ },
+ "38-bom.geojson": {
+  "reportSummary": {
+   "exact": "# GeoJSON Summary\n\nFeatureCollection with 2 features (0 with an id, 0 without geometry).\n\nBounding box: -0.8736, 42.100595, 15.90741, 50.90325 (west, south, east, north).\n\n| Geometry type | Features |\n| --- | ---: |\n| LineString | 1 |\n| Polygon | 1 |"
+  },
+  "reportValidation": {
+   "exact": "# GeoJSON Validation\n\nNo problems found."
+  },
+  "reportProperties": {
+   "exact": "# Properties\n\n3 properties across 2 features.\n\n| Property | Features | Missing | Types |\n| --- | ---: | ---: | --- |\n| capacity | 2 | 0 | number |\n| category | 2 | 0 | string |\n| name | 2 | 0 | string |"
+  },
+  "reportQuality": {
+   "exact": "# Geometry Quality\n\nNo findings."
+  },
+  "reportMeasurements": {
+   "exact": "# Measurements\n\nLengths and areas on a sphere of radius 6371.0088 km (the mean Earth radius); polygon lengths are the length of the outer ring.\n\n| Feature | Geometry | Length (km) | Area (km²) |\n| --- | --- | ---: | ---: |\n| Route 0 | LineString | 2548.071 | - |\n| Route 1 | Polygon | 18.518 | 20.962 |\n\nTotal: 2566.589 km, 20.962 km²."
+  }
+ },
+ "39-many-features.geojson": {
+  "reportSummary": {
+   "exact": "# GeoJSON Summary\n\nFeatureCollection with 1200 features (462 with an id, 69 without geometry).\n\nBounding box: -9.96799, 40.001275, 20.025777, 55.008166 (west, south, east, north).\n\n| Geometry type | Features |\n| --- | ---: |\n| Point | 146 |\n| MultiPoint | 154 |\n| LineString | 142 |\n| MultiLineString | 169 |\n| Polygon | 180 |\n| MultiPolygon | 176 |\n| GeometryCollection | 164 |"
+  },
+  "reportValidation": {
+   "exact": "# GeoJSON Validation\n\nNo problems found."
+  },
+  "reportProperties": {
+   "exact": "# Properties\n\n4 properties across 1200 features.\n\n| Property | Features | Missing | Types |\n| --- | ---: | ---: | --- |\n| capacity | 1200 | 0 | null, number |\n| category | 1200 | 0 | string |\n| name | 1200 | 0 | string |\n| tags | 237 | 963 | array |"
+  },
+  "reportQuality": {
+   "exact": "# Geometry Quality\n\n225 findings.\n\n| Location | Check | Finding |\n| --- | --- | --- |\n| features\\[0\\] | null_geometry | the feature has no geometry |\n| features\\[3\\] | null_geometry | the feature has no geometry |\n| features\\[4\\].geometry.geometries\\[1\\].coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[6\\] | null_geometry | the feature has no geometry |\n| features\\[15\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[16\\].geometry.geometries\\[1\\].coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[19\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[29\\].geometry.geometries\\[1\\].coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[48\\] | null_geometry | the feature has no geometry |\n| features\\[49\\] | null_geometry | the feature has no geometry |\n| features\\[50\\] | null_geometry | the feature has no geometry |\n| features\\[51\\] | null_geometry | the feature has no geometry |\n| features\\[56\\] | null_geometry | the feature has no geometry |\n| features\\[60\\].geometry.geometries\\[1\\].coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[63\\] | null_geometry | the feature has no geometry |\n| features\\[66\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[77\\] | null_geometry | the feature has no geometry |\n| features\\[79\\] | null_geometry | the feature has no geometry |\n| features\\[81\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[83\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[90\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[94\\] | null_geometry | the feature has no geometry |\n| features\\[100\\].geometry.coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[105\\] | null_geometry | the feature has no geometry |\n| features\\[111\\] | null_geometry | the feature has no geometry |\n| features\\[123\\].geometry.coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[125\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[130\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[140\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[147\\] | null_geometry | the feature has no geometry |\n| features\\[153\\] | null_geometry | the feature has no geometry |\n| features\\[161\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[162\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[163\\].geometry.coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[164\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[175\\] | null_geometry | the feature has no geometry |\n| features\\[180\\].geometry.geometries\\[1\\].coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[182\\].geometry.geometries\\[1\\].coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[195\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[201\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[205\\].geometry.coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[214\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[216\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[219\\] | null_geometry | the feature has no geometry |\n| features\\[229\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[234\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[236\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[237\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[240\\] | null_geometry | the feature has no geometry |\n| features\\[243\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[244\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[250\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[261\\] | null_geometry | the feature has no geometry |\n| features\\[267\\].geometry.coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[268\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[270\\] | null_geometry | the feature has no geometry |\n| features\\[281\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[301\\] | null_geometry | the feature has no geometry |\n| features\\[302\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[306\\] | null_geometry | the feature has no geometry |\n| features\\[309\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[310\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[313\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[317\\].geometry.geometries\\[1\\].coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[323\\].geometry.geometries\\[1\\].coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[325\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[338\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[339\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[343\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[347\\] | null_geometry | the feature has no geometry |\n| features\\[348\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[349\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[352\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[366\\] | null_geometry | the feature has no geometry |\n| features\\[378\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[393\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[396\\].geometry.geometries\\[1\\].coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[401\\] | null_geometry | the feature has no geometry |\n| features\\[408\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[414\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[416\\] | null_geometry | the feature has no geometry |\n| features\\[417\\].geometry.coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[422\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[425\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[426\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[429\\] | null_geometry | the feature has no geometry |\n| features\\[437\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[439\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[451\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[453\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[454\\].geometry.coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[455\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[458\\] | null_geometry | the feature has no geometry |\n| features\\[462\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[473\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[476\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[478\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[486\\].geometry.geometries\\[1\\].coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[488\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[495\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[504\\] | null_geometry | the feature has no geometry |\n| features\\[505\\] | null_geometry | the feature has no geometry |\n| features\\[509\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[514\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[521\\].geometry.geometries\\[1\\].coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[531\\] | null_geometry | the feature has no geometry |\n| features\\[542\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[544\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[546\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[549\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[552\\].geometry.geometries\\[1\\].coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[555\\] | null_geometry | the feature has no geometry |\n| features\\[557\\].geometry.geometries\\[1\\].coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[558\\] | null_geometry | the feature has no geometry |\n| features\\[559\\] | null_geometry | the feature has no geometry |\n| features\\[560\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[564\\] | null_geometry | the feature has no geometry |\n| features\\[570\\].geometry.geometries\\[1\\].coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[580\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[584\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[588\\] | null_geometry | the feature has no geometry |\n| features\\[592\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[594\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[605\\] | null_geometry | the feature has no geometry |\n| features\\[609\\].geometry.geometries\\[1\\].coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[611\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[615\\] | null_geometry | the feature has no geometry |\n| features\\[618\\].geometry.geometries\\[1\\].coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[619\\] | null_geometry | the feature has no geometry |\n| features\\[620\\] | null_geometry | the feature has no geometry |\n| features\\[626\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[630\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[634\\].geometry.geometries\\[1\\].coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[637\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[640\\] | null_geometry | the feature has no geometry |\n| features\\[642\\].geometry.geometries\\[1\\].coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[645\\] | null_geometry | the feature has no geometry |\n| features\\[646\\].geometry.coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[647\\] | null_geometry | the feature has no geometry |\n| features\\[649\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[650\\].geometry.geometries\\[1\\].coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[655\\].geometry.geometries\\[1\\].coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[656\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[657\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[658\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[666\\].geometry.geometries\\[1\\].coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[680\\] | null_geometry | the feature has no geometry |\n| features\\[696\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[712\\] | null_geometry | the feature has no geometry |\n| features\\[721\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[732\\].geometry.geometries\\[1\\].coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[754\\] | null_geometry | the feature has no geometry |\n| features\\[757\\].geometry.geometries\\[1\\].coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[765\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[770\\] | null_geometry | the feature has no geometry |\n| features\\[783\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[786\\] | null_geometry | the feature has no geometry |\n| features\\[790\\] | null_geometry | the feature has no geometry |\n| features\\[800\\] | null_geometry | the feature has no geometry |\n| features\\[812\\] | null_geometry | the feature has no geometry |\n| features\\[817\\].geometry.coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[818\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[825\\] | null_geometry | the feature has no geometry |\n| features\\[831\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[839\\].geometry.coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[856\\].geometry.coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[863\\].geometry.coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[864\\].geometry.geometries\\[1\\].coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[877\\].geometry.geometries\\[1\\].coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[878\\].geometry.geometries\\[1\\].coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[894\\].geometry.geometries\\[1\\].coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[895\\].geometry.coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[906\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[916\\] | null_geometry | the feature has no geometry |\n| features\\[922\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[932\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[934\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[937\\] | null_geometry | the feature has no geometry |\n| features\\[938\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[946\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[952\\].geometry.coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[957\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[960\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[966\\] | null_geometry | the feature has no geometry |\n| features\\[970\\].geometry.coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[977\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[978\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[979\\].geometry.geometries\\[1\\].coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[992\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[994\\] | null_geometry | the feature has no geometry |\n| features\\[997\\] | null_geometry | the feature has no geometry |\n| features\\[998\\].geometry.geometries\\[1\\].coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[999\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[1008\\].geometry.geometries\\[1\\].coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[1022\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[1023\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[1032\\].geometry.geometries\\[1\\].coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[1033\\] | null_geometry | the feature has no geometry |\n| features\\[1043\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[1060\\] | null_geometry | the feature has no geometry |\n| features\\[1067\\] | null_geometry | the feature has no geometry |\n| features\\[1084\\] | null_geometry | the feature has no geometry |\n| features\\[1086\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[1088\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[1100\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[1104\\].geometry.geometries\\[1\\].coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[1110\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[1114\\].geometry.coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[1126\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[1129\\] | null_geometry | the feature has no geometry |\n| features\\[1132\\].geometry.coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[1137\\].geometry.geometries\\[1\\].coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[1138\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[1141\\] | null_geometry | the feature has no geometry |\n| features\\[1147\\] | null_geometry | the feature has no geometry |\n| features\\[1150\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[1155\\].geometry.geometries\\[1\\].coordinates\\[1\\] | duplicate_point | the same position as the one before it |\n| features\\[1159\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[1163\\] | null_geometry | the feature has no geometry |\n| features\\[1166\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[1172\\] | null_geometry | the feature has no geometry |\n| features\\[1175\\].geometry.coordinates\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |\n| features\\[1190\\] | null_geometry | the feature has no geometry |\n| features\\[1193\\] | null_geometry | the feature has no geometry |\n| features\\[1197\\].geometry.coordinates\\[1\\]\\[0\\] | orientation | the exterior ring is clockwise; RFC 7946 asks for counterclockwise |"
+  },
+  "reportMeasurements": {
+   "exact": "# Measurements\n\nLengths and areas on a sphere of radius 6371.0088 km (the mean Earth radius); polygon lengths are the length of the outer ring.\n\n| Feature | Geometry | Length (km) | Area (km²) |\n| --- | --- | ---: | ---: |\n| Depot 1 | MultiLineString | 2144.575 | - |\n| Zone 2 | Polygon | 29.492 | 51.713 |\n| Route 4 | GeometryCollection | 2767.566 | - |\n| Site 5 | Polygon | 11.170 | 7.412 |\n| Zone 8 | MultiLineString | 2915.394 | - |\n| Route 9 | GeometryCollection | 2056.185 | - |\n| Depot 10 | MultiLineString | 2839.065 | - |\n| Zone 11 | MultiLineString | 3245.331 | - |\n| Route 12 | GeometryCollection | 2558.391 | - |\n| Depot 13 | Polygon | 8.261 | 4.183 |\n| Route 14 | MultiPolygon | 56.334 | 108.237 |\n| Site 15 | MultiPolygon | 45.036 | 60.685 |\n| Route 16 | GeometryCollection | 2005.426 | - |\n| Depot 17 | GeometryCollection | 4368.095 | - |\n| Route 19 | Polygon | 34.679 | 71.588 |\n| Route 21 | MultiLineString | 4467.707 | - |\n| Zone 22 | MultiLineString | 3673.535 | - |\n| Depot 24 | LineString | 4416.562 | - |\n| Zone 25 | MultiPolygon | 48.152 | 91.245 |\n| Site 26 | LineString | 3019.728 | - |\n| Route 27 | MultiLineString | 4202.879 | - |\n| Route 29 | GeometryCollection | 3072.218 | - |\n| Depot 30 | Polygon | 8.645 | 4.499 |\n| Depot 32 | LineString | 5414.922 | - |\n| Depot 33 | GeometryCollection | 3280.770 | - |\n| Depot 35 | LineString | 3057.121 | - |\n| Site 36 | MultiLineString | 3317.376 | - |\n| Route 39 | Polygon | 12.491 | 9.132 |\n| Route 40 | MultiLineString | 3671.481 | - |\n| Depot 41 | GeometryCollection | 1698.765 | - |\n| Zone 43 | MultiLineString | 3126.044 | - |\n| Site 45 | Polygon | 28.566 | 47.711 |\n| Zone 54 | MultiPolygon | 48.840 | 83.805 |\n| Zone 55 | MultiLineString | 2810.283 | - |\n| Depot 57 | MultiLineString | 2430.352 | - |\n| Site 58 | MultiLineString | 3188.561 | - |\n| Route 60 | GeometryCollection | 1103.483 | - |\n| Site 64 | LineString | 3972.594 | - |\n| Depot 65 | LineString | 4023.257 | - |\n| Site 66 | MultiPolygon | 62.499 | 134.659 |\n| Depot 67 | MultiPolygon | 16.081 | 7.770 |\n| Site 69 | MultiPolygon | 34.658 | 35.803 |\n| Site 71 | GeometryCollection | 1711.799 | - |\n| Depot 73 | MultiPolygon | 61.766 | 118.355 |\n| Route 74 | Polygon | 8.506 | 4.250 |\n| Zone 75 | LineString | 2038.209 | - |\n| Site 76 | Polygon | 34.125 | 67.551 |\n| Route 81 | Polygon | 38.438 | 88.923 |\n| Zone 82 | MultiLineString | 2530.998 | - |\n| Depot 83 | Polygon | 23.311 | 32.093 |\n| Route 84 | MultiLineString | 3945.853 | - |\n| Site 85 | Polygon | 8.397 | 4.328 |\n| Depot 86 | MultiLineString | 1486.476 | - |\n| Site 87 | Polygon | 30.747 | 54.965 |\n| Zone 90 | MultiPolygon | 39.790 | 50.955 |\n| Zone 91 | MultiPolygon | 69.397 | 152.466 |\n| Zone 92 | Polygon | 28.031 | 47.978 |\n| Route 93 | GeometryCollection | 2305.912 | - |\n| Route 98 | MultiLineString | 2459.273 | - |\n| Zone 99 | Polygon | 28.877 | 50.593 |\n| Depot 100 | LineString | 1582.773 | - |\n| Depot 106 | Polygon | 20.802 | 26.249 |\n| Route 107 | Polygon | 24.923 | 38.107 |\n| Site 108 | Polygon | 41.688 | 104.542 |\n| Route 109 | MultiLineString | 2688.151 | - |\n| Route 113 | MultiPolygon | 55.233 | 111.063 |\n| Route 114 | Polygon | 29.426 | 51.269 |\n| Depot 116 | GeometryCollection | 2114.023 | - |\n| Zone 117 | LineString | 3846.449 | - |\n| Site 119 | MultiLineString | 3197.186 | - |\n| Site 120 | GeometryCollection | 3628.347 | - |\n| Route 121 | GeometryCollection | 3369.675 | - |\n| Route 122 | MultiLineString | 1649.802 | - |\n| Zone 123 | LineString | 1887.845 | - |\n| Depot 124 | GeometryCollection | 2256.499 | - |\n| Zone 125 | MultiPolygon | 75.304 | 169.142 |\n| Route 127 | GeometryCollection | 3266.041 | - |\n| Depot 128 | LineString | 4222.558 | - |\n| Site 130 | Polygon | 22.874 | 31.955 |\n| Route 132 | GeometryCollection | 4017.631 | - |\n| Route 133 | MultiLineString | 3448.662 | - |\n| Zone 134 | GeometryCollection | 2463.451 | - |\n| Site 136 | Polygon | 39.197 | 92.785 |\n| Route 138 | MultiPolygon | 39.500 | 51.688 |\n| Route 140 | MultiPolygon | 39.532 | 48.221 |\n| Depot 141 | Polygon | 21.169 | 26.533 |\n| Route 142 | MultiLineString | 4146.687 | - |\n| Depot 143 | Polygon | 13.264 | 10.416 |\n| Site 144 | Polygon | 25.830 | 39.577 |\n| Site 145 | MultiPolygon | 36.604 | 41.144 |\n| Site 146 | MultiPolygon | 54.521 | 87.571 |\n| Route 149 | MultiLineString | 4099.994 | - |\n| Zone 150 | LineString | 3662.632 | - |\n| Route 151 | Polygon | 24.028 | 33.644 |\n| Depot 152 | MultiPolygon | 42.546 | 56.404 |\n| Route 154 | GeometryCollection | 3471.580 | - |\n| Zone 155 | MultiLineString | 3921.078 | - |\n| Zone 156 | LineString | 1829.194 | - |\n| Zone 157 | LineString | 3659.900 | - |\n| Route 158 | Polygon | 7.826 | 3.574 |\n| Site 161 | Polygon | 27.201 | 44.732 |\n| Depot 162 | Polygon | 37.938 | 88.274 |\n| Zone 163 | LineString | 2624.956 | - |\n| Zone 164 | Polygon | 27.006 | 44.666 |\n| Depot 165 | LineString | 2487.843 | - |\n| Zone 166 | MultiPolygon | 53.108 | 111.355 |\n| Depot 167 | GeometryCollection | 3767.795 | - |\n| Depot 168 | LineString | 2267.667 | - |\n| Depot 169 | MultiPolygon | 32.650 | 32.688 |\n| Depot 170 | LineString | 2716.479 | - |\n| Site 171 | Polygon | 9.071 | 4.988 |\n| Depot 172 | MultiPolygon | 59.056 | 116.840 |\n| Site 174 | MultiLineString | 4184.301 | - |\n| Site 177 | Polygon | 14.116 | 12.095 |\n| Site 178 | GeometryCollection | 4161.875 | - |\n| Site 180 | GeometryCollection | 2015.130 | - |\n| Site 182 | GeometryCollection | 3435.841 | - |\n| Route 184 | MultiLineString | 2763.181 | - |\n| Site 186 | LineString | 2404.159 | - |\n| Depot 187 | MultiPolygon | 48.120 | 73.666 |\n| Route 189 | LineString | 3048.367 | - |\n| Site 190 | Polygon | 18.184 | 19.182 |\n| Zone 192 | MultiPolygon | 26.522 | 21.979 |\n| Site 193 | GeometryCollection | 2834.752 | - |\n| Depot 194 | Polygon | 39.569 | 91.221 |\n| Depot 195 | Polygon | 42.016 | 104.215 |\n| Depot 197 | Polygon | 22.530 | 30.678 |\n| Site 199 | Polygon | 35.078 | 72.932 |\n| Site 201 | MultiPolygon | 55.129 | 113.112 |\n| Depot 203 | MultiPolygon | 56.309 | 101.919 |\n| Depot 204 | GeometryCollection | 2789.914 | - |\n| Site 205 | LineString | 2663.064 | - |\n| Route 207 | LineString | 3614.416 | - |\n| Site 208 | LineString | 2875.069 | - |\n| Site 209 | GeometryCollection | 3147.023 | - |\n| Route 210 | LineString | 4603.377 | - |\n| Site 211 | MultiLineString | 2085.828 | - |\n| Depot 212 | LineString | 2965.474 | - |\n| Zone 213 | LineString | 4121.544 | - |\n| Zone 214 | Polygon | 39.699 | 96.715 |\n| Zone 215 | GeometryCollection | 3611.751 | - |\n| Site 216 | Polygon | 45.597 | 126.932 |\n| Route 217 | GeometryCollection | 3560.059 | - |\n| Depot 218 | Polygon | 42.597 | 107.822 |\n| Route 220 | MultiPolygon | 44.750 | 69.707 |\n| Route 221 | LineString | 2050.864 | - |\n| Route 223 | MultiLineString | 2549.608 | - |\n| Depot 224 | GeometryCollection | 4024.653 | - |\n| Site 225 | GeometryCollection | 2212.819 | - |\n| Depot 226 | MultiLineString | 2580.348 | - |\n| Zone 227 | MultiLineString | 3970.228 | - |\n| Zone 228 | Polygon | 13.932 | 11.546 |\n| Depot 229 | MultiPolygon | 45.034 | 64.055 |\n| Depot 230 | GeometryCollection | 2897.070 | - |\n| Route 232 | MultiPolygon | 62.401 | 145.010 |\n| Site 234 | MultiPolygon | 67.380 | 142.369 |\n| Depot 235 | MultiPolygon | 36.867 | 43.036 |\n| Site 236 | Polygon | 8.475 | 4.285 |\n| Site 237 | Polygon | 36.046 | 78.034 |\n| Depot 238 | MultiPolygon | 23.321 | 16.563 |\n| Route 241 | MultiLineString | 2047.136 | - |\n| Zone 242 | LineString | 4448.340 | - |\n| Zone 243 | Polygon | 38.334 | 89.644 |\n| Site 244 | Polygon | 28.324 | 47.574 |\n| Site 245 | Polygon | 8.057 | 3.900 |\n| Site 246 | MultiPolygon | 42.851 | 61.865 |\n| Site 247 | Polygon | 18.270 | 20.458 |\n| Zone 248 | GeometryCollection | 3059.061 | - |\n| Depot 250 | Polygon | 26.018 | 41.533 |\n| Route 251 | LineString | 3882.621 | - |\n| Zone 252 | Polygon | 29.667 | 51.829 |\n| Route 254 | LineString | 1513.743 | - |\n| Route 255 | MultiLineString | 2025.192 | - |\n| Depot 257 | MultiLineString | 3298.342 | - |\n| Depot 258 | MultiLineString | 2238.129 | - |\n| Route 260 | MultiLineString | 2931.881 | - |\n| Route 262 | GeometryCollection | 3668.040 | - |\n| Site 263 | LineString | 4165.316 | - |\n| Route 264 | Polygon | 38.670 | 91.687 |\n| Site 265 | MultiPolygon | 35.702 | 39.289 |\n| Site 267 | LineString | 1664.239 | - |\n| Depot 268 | Polygon | 38.865 | 91.623 |\n| Depot 271 | GeometryCollection | 2845.760 | - |\n| Site 273 | MultiLineString | 2828.205 | - |\n| Depot 274 | LineString | 2418.018 | - |\n| Route 275 | MultiLineString | 4559.476 | - |\n| Site 277 | Polygon | 21.989 | 29.118 |\n| Route 279 | LineString | 3017.852 | - |\n| Site 281 | Polygon | 10.320 | 6.290 |\n| Zone 282 | MultiPolygon | 53.117 | 91.423 |\n| Route 283 | Polygon | 21.486 | 28.028 |\n| Zone 284 | MultiLineString | 3204.481 | - |\n| Depot 286 | GeometryCollection | 2610.191 | - |\n| Route 287 | LineString | 3363.082 | - |\n| Route 291 | LineString | 2438.672 | - |\n| Route 292 | MultiLineString | 3649.595 | - |\n| Zone 293 | MultiPolygon | 57.303 | 115.149 |\n| Site 294 | MultiPolygon | 25.658 | 20.103 |\n| Route 295 | Polygon | 22.111 | 28.545 |\n| Route 296 | MultiLineString | 2444.824 | - |\n| Site 298 | Polygon | 42.774 | 110.891 |\n| Depot 300 | MultiLineString | 1569.204 | - |\n| Depot 302 | Polygon | 15.466 | 14.382 |\n| Zone 307 | Polygon | 23.679 | 34.314 |\n| Site 308 | GeometryCollection | 3160.695 | - |\n| Site 309 | MultiPolygon | 69.579 | 143.324 |\n| Site 310 | MultiPolygon | 65.109 | 139.503 |\n| Depot 311 | Polygon | 38.000 | 85.283 |\n| Site 313 | MultiPolygon | 52.029 | 91.381 |\n| Zone 314 | MultiLineString | 1919.196 | - |\n| Site 317 | GeometryCollection | 2439.720 | - |\n| Site 318 | LineString | 2805.098 | - |\n| Depot 319 | GeometryCollection | 2522.816 | - |\n| Zone 321 | MultiPolygon | 26.990 | 21.710 |\n| Depot 322 | MultiLineString | 3066.175 | - |\n| Site 323 | GeometryCollection | 829.373 | - |\n| Zone 324 | Polygon | 29.700 | 53.954 |\n| Depot 325 | Polygon | 37.656 | 83.129 |\n| Zone 327 | MultiPolygon | 51.596 | 90.789 |\n| Zone 328 | MultiLineString | 3432.136 | - |\n| Route 329 | MultiPolygon | 72.662 | 157.033 |\n| Site 330 | Polygon | 19.480 | 23.210 |\n| Zone 331 | MultiLineString | 2170.487 | - |\n| Site 332 | LineString | 2388.606 | - |\n| Depot 333 | LineString | 1973.599 | - |\n| Route 335 | MultiLineString | 2605.220 | - |\n| Route 336 | MultiLineString | 3161.305 | - |\n| Site 338 | Polygon | 40.954 | 98.681 |\n| Depot 339 | MultiPolygon | 57.090 | 102.231 |\n| Depot 341 | LineString | 2893.197 | - |\n| Site 342 | MultiLineString | 3390.440 | - |\n| Route 343 | MultiPolygon | 52.688 | 111.769 |\n| Zone 344 | LineString | 3127.721 | - |\n| Route 346 | MultiPolygon | 41.711 | 68.803 |\n| Site 348 | MultiPolygon | 70.346 | 152.913 |\n| Zone 349 | MultiPolygon | 47.921 | 69.550 |\n| Site 350 | MultiLineString | 3599.365 | - |\n| Zone 351 | MultiLineString | 2330.356 | - |\n| Route 352 | MultiPolygon | 49.986 | 75.297 |\n| Site 354 | Polygon | 37.562 | 83.196 |\n| Route 355 | MultiPolygon | 51.552 | 80.371 |\n| Zone 356 | GeometryCollection | 3297.038 | - |\n| Route 359 | MultiPolygon | 76.606 | 178.881 |\n| Site 360 | MultiLineString | 4422.990 | - |\n| Zone 361 | MultiLineString | 4480.220 | - |\n| Depot 362 | GeometryCollection | 3083.949 | - |\n| Depot 363 | GeometryCollection | 3020.812 | - |\n| Depot 364 | MultiLineString | 3584.185 | - |\n| Route 365 | LineString | 3509.984 | - |\n| Route 367 | Polygon | 27.446 | 45.407 |\n| Route 368 | MultiLineString | 1800.146 | - |\n| Route 369 | MultiLineString | 3701.622 | - |\n| Route 371 | Polygon | 43.587 | 113.978 |\n| Route 372 | GeometryCollection | 2080.038 | - |\n| Zone 373 | MultiLineString | 3209.002 | - |\n| Site 374 | MultiLineString | 4315.571 | - |\n| Depot 375 | MultiPolygon | 77.800 | 182.491 |\n| Zone 377 | LineString | 2165.182 | - |\n| Site 378 | Polygon | 21.022 | 25.649 |\n| Site 379 | GeometryCollection | 3745.399 | - |\n| Depot 380 | LineString | 3008.453 | - |\n| Depot 381 | GeometryCollection | 2920.591 | - |\n| Zone 383 | LineString | 3781.509 | - |\n| Depot 384 | MultiPolygon | 55.272 | 92.938 |\n| Site 386 | GeometryCollection | 3425.998 | - |\n| Route 387 | MultiLineString | 4028.476 | - |\n| Route 388 | GeometryCollection | 3376.128 | - |\n| Zone 389 | MultiPolygon | 41.796 | 66.960 |\n| Route 390 | Polygon | 21.759 | 27.714 |\n| Depot 391 | Polygon | 29.164 | 51.416 |\n| Route 393 | Polygon | 18.322 | 20.423 |\n| Route 395 | MultiLineString | 2751.847 | - |\n| Route 396 | GeometryCollection | 1962.234 | - |\n| Site 397 | MultiLineString | 1672.268 | - |\n| Depot 398 | GeometryCollection | 2562.190 | - |\n| Site 405 | LineString | 2441.463 | - |\n| Site 407 | Polygon | 32.618 | 64.676 |\n| Route 408 | Polygon | 40.530 | 98.685 |\n| Site 409 | Polygon | 21.072 | 26.984 |\n| Zone 411 | MultiLineString | 5890.044 | - |\n| Zone 412 | MultiLineString | 1509.377 | - |\n| Depot 414 | MultiPolygon | 65.132 | 133.277 |\n| Depot 415 | GeometryCollection | 4358.829 | - |\n| Zone 417 | LineString | 1658.775 | - |\n| Site 418 | GeometryCollection | 3097.733 | - |\n| Depot 419 | LineString | 2232.180 | - |\n| Route 420 | MultiLineString | 3936.646 | - |\n| Route 422 | Polygon | 30.323 | 55.773 |\n| Site 424 | GeometryCollection | 2935.066 | - |\n| Zone 425 | MultiPolygon | 66.404 | 141.126 |\n| Site 426 | Polygon | 31.852 | 59.555 |\n| Route 427 | LineString | 1492.500 | - |\n| Site 428 | MultiPolygon | 40.663 | 50.119 |\n| Route 431 | MultiLineString | 3214.695 | - |\n| Depot 432 | LineString | 4434.397 | - |\n| Zone 433 | LineString | 4128.641 | - |\n| Site 434 | MultiPolygon | 23.741 | 18.663 |\n| Site 435 | GeometryCollection | 1726.813 | - |\n| Site 437 | Polygon | 21.521 | 27.226 |\n| Site 438 | MultiLineString | 3882.494 | - |\n| Depot 439 | Polygon | 40.310 | 96.883 |\n| Route 441 | LineString | 1971.140 | - |\n| Zone 442 | LineString | 3800.253 | - |\n| Site 443 | MultiPolygon | 22.112 | 15.010 |\n| Depot 445 | LineString | 3131.044 | - |\n| Zone 448 | Polygon | 12.555 | 9.515 |\n| Depot 449 | Polygon | 40.025 | 95.067 |\n| Site 450 | GeometryCollection | 2742.417 | - |\n| Site 451 | MultiPolygon | 56.670 | 97.101 |\n| Site 452 | Polygon | 34.244 | 69.039 |\n| Site 453 | MultiPolygon | 77.618 | 185.006 |\n| Route 454 | LineString | 1579.992 | - |\n| Route 455 | Polygon | 17.413 | 18.079 |\n| Site 456 | MultiLineString | 3283.001 | - |\n| Zone 457 | LineString | 3298.063 | - |\n| Depot 459 | Polygon | 32.618 | 64.049 |\n| Site 460 | MultiLineString | 2387.704 | - |\n| Zone 461 | MultiPolygon | 54.607 | 103.704 |\n| Zone 462 | Polygon | 24.976 | 38.277 |\n| Depot 463 | MultiLineString | 3322.456 | - |\n| Route 465 | Polygon | 18.875 | 21.034 |\n| Zone 467 | MultiPolygon | 47.316 | 68.347 |\n| Zone 468 | MultiLineString | 4400.693 | - |\n| Depot 469 | LineString | 2355.941 | - |\n| Site 470 | MultiLineString | 2423.204 | - |\n| Site 471 | GeometryCollection | 3424.554 | - |\n| Route 473 | MultiPolygon | 74.557 | 163.770 |\n| Zone 474 | MultiPolygon | 57.733 | 100.919 |\n| Site 476 | MultiPolygon | 58.197 | 138.258 |\n| Route 478 | MultiPolygon | 65.165 | 127.390 |\n| Depot 480 | MultiLineString | 3577.627 | - |\n| Zone 482 | GeometryCollection | 3441.806 | - |\n| Route 484 | MultiPolygon | 79.628 | 190.737 |\n| Site 485 | LineString | 1532.753 | - |\n| Route 486 | GeometryCollection | 1162.805 | - |\n| Zone 488 | Polygon | 41.282 | 103.107 |\n| Zone 490 | MultiPolygon | 39.863 | 48.527 |\n| Site 492 | LineString | 4245.022 | - |\n| Route 493 | GeometryCollection | 2598.955 | - |\n| Route 495 | Polygon | 23.678 | 32.958 |\n| Route 497 | MultiLineString | 2818.741 | - |\n| Zone 499 | GeometryCollection | 3658.802 | - |\n| Zone 500 | GeometryCollection | 1992.076 | - |\n| Site 501 | MultiPolygon | 49.884 | 89.810 |\n| Route 502 | Polygon | 12.947 | 9.722 |\n| Route 503 | MultiLineString | 1977.831 | - |\n| Site 506 | MultiLineString | 4723.381 | - |\n| Site 509 | MultiPolygon | 58.623 | 109.281 |\n| Site 510 | Polygon | 8.427 | 4.290 |\n| Depot 511 | MultiLineString | 2024.399 | - |\n| Site 513 | GeometryCollection | 2775.997 | - |\n| Depot 514 | MultiPolygon | 58.484 | 120.080 |\n| Route 516 | LineString | 5041.535 | - |\n| Site 517 | MultiLineString | 4043.522 | - |\n| Depot 518 | Polygon | 12.901 | 10.102 |\n| Route 519 | Polygon | 13.101 | 10.201 |\n| Depot 520 | GeometryCollection | 3537.410 | - |\n| Route 521 | GeometryCollection | 934.348 | - |\n| Depot 522 | MultiPolygon | 63.525 | 138.191 |\n| Route 523 | GeometryCollection | 4275.066 | - |\n| Site 524 | MultiPolygon | 61.796 | 119.263 |\n| Route 525 | LineString | 4088.585 | - |\n| Site 526 | Polygon | 8.162 | 3.970 |\n| Route 527 | Polygon | 18.002 | 19.634 |\n| Site 529 | GeometryCollection | 2147.715 | - |\n| Zone 530 | MultiPolygon | 29.410 | 31.279 |\n| Zone 532 | LineString | 2656.928 | - |\n| Zone 533 | MultiPolygon | 17.539 | 9.188 |\n| Depot 535 | GeometryCollection | 1687.368 | - |\n| Zone 536 | MultiPolygon | 79.945 | 192.167 |\n| Site 537 | LineString | 2220.756 | - |\n| Site 539 | MultiLineString | 2917.086 | - |\n| Site 541 | LineString | 2519.060 | - |\n| Zone 542 | MultiPolygon | 24.923 | 18.984 |\n| Route 543 | GeometryCollection | 2704.589 | - |\n| Site 544 | MultiPolygon | 64.237 | 122.974 |\n| Depot 545 | Polygon | 23.097 | 30.977 |\n| Depot 546 | Polygon | 8.517 | 4.261 |\n| Site 547 | MultiLineString | 2412.291 | - |\n| Site 548 | GeometryCollection | 3477.936 | - |\n| Zone 549 | MultiPolygon | 69.490 | 145.525 |\n| Site 550 | GeometryCollection | 2564.973 | - |\n| Zone 551 | MultiPolygon | 72.540 | 157.727 |\n| Route 552 | GeometryCollection | 1548.220 | - |\n| Site 553 | GeometryCollection | 4566.550 | - |\n| Route 554 | MultiPolygon | 63.506 | 125.077 |\n| Route 556 | LineString | 1689.091 | - |\n| Depot 557 | GeometryCollection | 2879.354 | - |\n| Zone 560 | Polygon | 40.168 | 95.281 |\n| Route 561 | GeometryCollection | 3414.782 | - |\n| Zone 563 | Polygon | 30.440 | 54.671 |\n| Site 566 | MultiLineString | 2650.951 | - |\n| Zone 567 | MultiLineString | 5467.815 | - |\n| Depot 568 | Polygon | 23.343 | 31.575 |\n| Zone 569 | MultiLineString | 3139.231 | - |\n| Depot 570 | GeometryCollection | 2750.328 | - |\n| Zone 571 | MultiLineString | 4160.903 | - |\n| Zone 572 | Polygon | 30.388 | 56.573 |\n| Route 575 | MultiLineString | 2708.663 | - |\n| Depot 576 | MultiPolygon | 50.389 | 83.122 |\n| Site 577 | GeometryCollection | 2362.780 | - |\n| Depot 579 | Polygon | 27.021 | 43.562 |\n| Depot 580 | Polygon | 15.323 | 13.899 |\n| Site 581 | GeometryCollection | 2178.648 | - |\n| Zone 583 | MultiLineString | 2119.951 | - |\n| Route 584 | MultiPolygon | 44.914 | 63.624 |\n| Zone 586 | GeometryCollection | 2960.446 | - |\n| Depot 587 | MultiLineString | 3609.917 | - |\n| Zone 590 | LineString | 4065.028 | - |\n| Depot 591 | Polygon | 30.201 | 54.547 |\n| Depot 592 | MultiPolygon | 54.997 | 118.791 |\n| Site 594 | Polygon | 15.945 | 15.538 |\n| Route 595 | MultiLineString | 3063.937 | - |\n| Zone 596 | MultiLineString | 3728.988 | - |\n| Zone 597 | MultiPolygon | 61.496 | 115.283 |\n| Site 598 | Polygon | 30.108 | 55.458 |\n| Route 600 | MultiPolygon | 58.155 | 111.965 |\n| Depot 601 | MultiLineString | 4248.061 | - |\n| Site 602 | MultiLineString | 4074.973 | - |\n| Site 603 | GeometryCollection | 3673.048 | - |\n| Site 606 | MultiPolygon | 42.121 | 55.347 |\n| Zone 608 | LineString | 3304.958 | - |\n| Depot 609 | GeometryCollection | 643.209 | - |\n| Depot 611 | Polygon | 22.267 | 28.724 |\n| Route 612 | MultiLineString | 1446.242 | - |\n| Site 616 | MultiPolygon | 47.442 | 70.523 |\n| Site 618 | GeometryCollection | 2746.249 | - |\n| Route 621 | MultiLineString | 3912.296 | - |\n| Zone 622 | LineString | 2027.032 | - |\n| Depot 623 | Polygon | 46.331 | 131.789 |\n| Zone 625 | Polygon | 33.036 | 65.402 |\n| Zone 626 | Polygon | 34.299 | 72.086 |\n| Route 627 | LineString | 4223.674 | - |\n| Route 628 | Polygon | 34.103 | 70.224 |\n| Site 629 | LineString | 3862.756 | - |\n| Depot 630 | MultiPolygon | 46.415 | 92.588 |\n| Site 631 | MultiLineString | 2322.557 | - |\n| Route 634 | GeometryCollection | 1226.413 | - |\n| Zone 635 | Polygon | 26.042 | 41.309 |\n| Zone 636 | GeometryCollection | 2552.933 | - |\n| Depot 637 | MultiPolygon | 73.540 | 161.057 |\n| Zone 638 | GeometryCollection | 2819.402 | - |\n| Depot 639 | Polygon | 20.758 | 25.953 |\n| Site 642 | GeometryCollection | 2848.128 | - |\n| Depot 644 | Polygon | 32.814 | 64.443 |\n| Route 646 | LineString | 1073.585 | - |\n| Depot 649 | MultiPolygon | 30.195 | 27.910 |\n| Site 650 | GeometryCollection | 1859.181 | - |\n| Route 651 | MultiLineString | 3899.905 | - |\n| Site 654 | LineString | 2774.641 | - |\n| Route 655 | GeometryCollection | 1508.644 | - |\n| Zone 656 | MultiPolygon | 60.221 | 130.174 |\n| Depot 657 | Polygon | 22.837 | 31.670 |\n| Site 658 | MultiPolygon | 63.750 | 130.854 |\n| Zone 659 | LineString | 3059.474 | - |\n| Zone 661 | MultiPolygon | 61.978 | 113.294 |\n| Depot 663 | MultiLineString | 3215.148 | - |\n| Site 664 | MultiPolygon | 27.971 | 23.959 |\n| Zone 666 | GeometryCollection | 3263.121 | - |\n| Zone 667 | MultiPolygon | 54.620 | 88.818 |\n| Site 668 | Polygon | 35.760 | 74.577 |\n| Zone 672 | LineString | 3057.748 | - |\n| Site 673 | GeometryCollection | 4178.247 | - |\n| Site 674 | Polygon | 36.094 | 78.249 |\n| Route 675 | MultiPolygon | 24.242 | 17.648 |\n| Route 677 | MultiLineString | 3069.535 | - |\n| Route 678 | MultiLineString | 2639.582 | - |\n| Site 679 | Polygon | 8.644 | 4.444 |\n| Zone 683 | MultiPolygon | 52.348 | 122.382 |\n| Depot 684 | LineString | 3102.254 | - |\n| Route 685 | GeometryCollection | 1652.296 | - |\n| Route 686 | MultiPolygon | 44.093 | 60.915 |\n| Zone 688 | Polygon | 38.439 | 89.234 |\n| Route 689 | GeometryCollection | 3448.200 | - |\n| Depot 691 | Polygon | 33.950 | 69.733 |\n| Site 692 | GeometryCollection | 3841.617 | - |\n| Site 693 | GeometryCollection | 3216.637 | - |\n| Site 694 | MultiLineString | 3786.241 | - |\n| Zone 696 | Polygon | 35.484 | 76.604 |\n| Route 697 | MultiPolygon | 31.236 | 28.578 |\n| Site 698 | MultiLineString | 3487.041 | - |\n| Depot 699 | Polygon | 22.681 | 30.826 |\n| Zone 702 | MultiLineString | 3589.260 | - |\n| Depot 703 | MultiLineString | 3275.492 | - |\n| Site 704 | MultiLineString | 5418.410 | - |\n| Site 705 | GeometryCollection | 2575.774 | - |\n| Site 706 | MultiPolygon | 37.835 | 43.557 |\n| Route 707 | LineString | 3915.405 | - |\n| Site 708 | LineString | 805.525 | - |\n| Site 710 | MultiPolygon | 27.143 | 22.349 |\n| Site 711 | GeometryCollection | 4660.979 | - |\n| Route 713 | GeometryCollection | 3058.709 | - |\n| Zone 714 | MultiLineString | 3626.626 | - |\n| Depot 716 | MultiLineString | 2965.752 | - |\n| Zone 717 | LineString | 3448.808 | - |\n| Zone 719 | GeometryCollection | 2569.601 | - |\n| Depot 721 | Polygon | 31.472 | 60.357 |\n| Depot 722 | GeometryCollection | 1745.393 | - |\n| Depot 723 | LineString | 3378.795 | - |\n| Zone 725 | MultiLineString | 3485.942 | - |\n\nShowing the first 500 of 831 rows.\n\nTotal: 1460991.527 km, 24856.038 km²."
+  }
+ },
+ "40-antimeridian.geojson": {
+  "reportSummary": {
+   "exact": "# GeoJSON Summary\n\nFeature with 1 feature (0 with an id, 0 without geometry).\n\nBounding box: -179.5, -16.7, 179.5, -16.5 (west, south, east, north).\n\n| Geometry type | Features |\n| --- | ---: |\n| LineString | 1 |"
+  },
+  "reportValidation": {
+   "exact": "# GeoJSON Validation\n\nNo problems found."
+  },
+  "reportProperties": {
+   "exact": "# Properties\n\n1 property across 1 feature.\n\n| Property | Features | Missing | Types |\n| --- | ---: | ---: | --- |\n| name | 1 | 0 | string |"
+  },
+  "reportQuality": {
+   "exact": "# Geometry Quality\n\nNo findings."
+  },
+  "reportMeasurements": {
+   "exact": "# Measurements\n\nLengths and areas on a sphere of radius 6371.0088 km (the mean Earth radius); polygon lengths are the length of the outer ring.\n\n| Feature | Geometry | Length (km) | Area (km²) |\n| --- | --- | ---: | ---: |\n| Pacific hop | LineString | 108.856 | - |\n\nTotal: 108.856 km, 0.000 km²."
+  }
+ }
+}
