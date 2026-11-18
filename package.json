@@ -1,0 +1,216 @@
+{
+  "name": "geojson-atlas",
+  "displayName": "GeoJSON Atlas",
+  "description": "GeoJSON files: summary, RFC 7946 validation, properties. Pro: geometry quality review and lengths and areas. Works offline.",
+  "version": "0.1.0",
+  "publisher": "SmallStepsStudio",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "icon": "media/icon.png",
+  "pricing": "Trial",
+  "homepage": "https://github.com/small-steps-studio/geojson-atlas#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/small-steps-studio/geojson-atlas"
+  },
+  "bugs": {
+    "url": "https://github.com/small-steps-studio/geojson-atlas/issues"
+  },
+  "galleryBanner": {
+    "color": "#1f2f3a",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "categories": [
+    "Other",
+    "Linters"
+  ],
+  "keywords": [
+    "geojson",
+    "gis",
+    "rfc 7946",
+    "geojson validator",
+    "geometry",
+    "polygon",
+    "linestring",
+    "coordinates",
+    "wgs84",
+    "map data",
+    "bounding box",
+    "area",
+    "length",
+    "properties",
+    "feature collection",
+    "geospatial",
+    "mapping",
+    "data quality",
+    "spatial",
+    "offline"
+  ],
+  "main": "./src/extension.js",
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true
+    },
+    "virtualWorkspaces": true
+  },
+  "activationEvents": [],
+  "scripts": {
+    "test": "node scripts/run-tests.js",
+    "gate": "node scripts/release-gate.js",
+    "vscode:prepublish": "node scripts/release-gate.js --skip-tests",
+    "package": "npx --yes @vscode/vsce package --no-dependencies",
+    "package:local": "node scripts/package-local.js",
+    "check-vsix": "node scripts/check-vsix.js"
+  },
+  "contributes": {
+    "commands": [
+      {
+        "command": "geojsonAtlas.showSummary",
+        "title": "GeoJSON Atlas: Show GeoJSON Summary",
+        "icon": "$(globe)"
+      },
+      {
+        "command": "geojsonAtlas.showValidation",
+        "title": "GeoJSON Atlas: Show Validation"
+      },
+      {
+        "command": "geojsonAtlas.showProperties",
+        "title": "GeoJSON Atlas: Show Properties"
+      },
+      {
+        "command": "geojsonAtlas.showQuality",
+        "title": "GeoJSON Atlas: Show Geometry Quality (Pro)"
+      },
+      {
+        "command": "geojsonAtlas.showMeasurements",
+        "title": "GeoJSON Atlas: Show Measurements (Pro)"
+      },
+      {
+        "command": "geojsonAtlas.openSample",
+        "title": "GeoJSON Atlas: Open Sample File"
+      },
+      {
+        "command": "geojsonAtlas.openWalkthrough",
+        "title": "GeoJSON Atlas: Open Walkthrough"
+      },
+      {
+        "command": "geojsonAtlas.showDocumentation",
+        "title": "GeoJSON Atlas: Show Documentation"
+      },
+      {
+        "command": "geojsonAtlas.reportProblem",
+        "title": "GeoJSON Atlas: Report A Problem"
+      },
+      {
+        "command": "geojsonAtlas.buyPro",
+        "title": "GeoJSON Atlas: Buy Pro"
+      },
+      {
+        "command": "geojsonAtlas.enterKey",
+        "title": "GeoJSON Atlas: Enter Licence Key"
+      },
+      {
+        "command": "geojsonAtlas.licenceStatus",
+        "title": "GeoJSON Atlas: Show Licence Status"
+      },
+      {
+        "command": "geojsonAtlas.removeLicence",
+        "title": "GeoJSON Atlas: Remove Licence From This Machine"
+      }
+    ],
+    "menus": {
+      "editor/title": [
+        {
+          "command": "geojsonAtlas.showSummary",
+          "when": "resourceExtname == .geojson",
+          "group": "navigation@90"
+        }
+      ]
+    },
+    "walkthroughs": [
+      {
+        "id": "gettingStarted",
+        "title": "Get started with GeoJSON Atlas",
+        "description": "Open a sample GeoJSON file, see its summary, validation and properties, and try the Pro geometry quality review and measurements in the free 14-day trial.",
+        "steps": [
+          {
+            "id": "geojsonAtlas.step.openSample",
+            "title": "Open a sample file",
+            "description": "GeoJSON Atlas reads GeoJSON (RFC 7946): feature collections, single features and bare geometries in WGS 84 longitude and latitude. The sample is an invented city logistics file with a swapped point, a duplicate point and too precise coordinates, so every report has something to show.\n[Open Sample File](command:geojsonAtlas.openSample)",
+            "media": {
+              "markdown": "media/walkthrough/open-sample.md"
+            },
+            "completionEvents": [
+              "onCommand:geojsonAtlas.openSample"
+            ]
+          },
+          {
+            "id": "geojsonAtlas.step.free",
+            "title": "Run Show GeoJSON Summary",
+            "description": "The file at a glance: features, ids, features without geometry, bounding box and geometry types. The report opens as a new Markdown document; your file is not changed.\n[Show GeoJSON Summary](command:geojsonAtlas.showSummary)",
+            "media": {
+              "markdown": "media/walkthrough/free.md"
+            },
+            "completionEvents": [
+              "onCommand:geojsonAtlas.showSummary"
+            ]
+          },
+          {
+            "id": "geojsonAtlas.step.more",
+            "title": "Use the other free reports",
+            "description": "Every free report works without a key, an account or a network connection: Show Validation, Show Properties.\n[Show Validation](command:geojsonAtlas.showValidation)\n[Show Properties](command:geojsonAtlas.showProperties)",
+            "media": {
+              "markdown": "media/walkthrough/more.md"
+            },
+            "completionEvents": [
+              "onCommand:geojsonAtlas.showValidation",
+              "onCommand:geojsonAtlas.showProperties"
+            ]
+          },
+          {
+            "id": "geojsonAtlas.step.pro",
+            "title": "Try Pro free for 14 days",
+            "description": "The first Pro command you run starts a free 14-day trial on this computer, with no key and no network: Show Geometry Quality, Show Measurements.\n[Show Geometry Quality](command:geojsonAtlas.showQuality)",
+            "media": {
+              "markdown": "media/walkthrough/pro.md"
+            },
+            "completionEvents": [
+              "onCommand:geojsonAtlas.showQuality",
+              "onCommand:geojsonAtlas.showMeasurements"
+            ]
+          },
+          {
+            "id": "geojsonAtlas.step.licence",
+            "title": "Licence and help",
+            "description": "Buy Pro (Personal USD 19, Business USD 39 per user), enter a key, see the licence status, or report a problem.\n[Show Licence Status](command:geojsonAtlas.licenceStatus)\n[Report A Problem](command:geojsonAtlas.reportProblem)",
+            "media": {
+              "markdown": "media/walkthrough/licence.md"
+            },
+            "completionEvents": [
+              "onCommand:geojsonAtlas.licenceStatus"
+            ]
+          }
+        ]
+      }
+    ],
+    "configuration": {
+      "title": "GeoJSON Atlas",
+      "properties": {
+        "geojsonAtlas.maxFileSizeMB": {
+          "type": "number",
+          "default": 50,
+          "minimum": 0.1,
+          "maximum": 50,
+          "markdownDescription": "Largest file (in MB) a report reads, up to 50 MB (VS Code passes files only up to 50 MB to extensions). Larger files are refused with a message."
+        },
+        "geojsonAtlas.openReportsAsPreview": {
+          "type": "boolean",
+          "default": true,
+          "markdownDescription": "Open each report in the Markdown preview as well as in a new editor."
+        }
+      }
+    }
+  }
+}
